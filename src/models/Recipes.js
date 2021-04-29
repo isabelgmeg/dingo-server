@@ -4,6 +4,7 @@ const { Schema } = mongoose;
 // const recipe = {
 //     "name": "pepe",
 //      "ingredients": id from INGREDIENTS,
+//      "mealType": 'main'
 //      "gramsPerRecipe": 100
 //      "elabTime":100 IN MINUTESSS
 //     "carbs": 100,
@@ -29,6 +30,16 @@ const RecipesSchema = new Schema(
       type: String,
       required: true,
     },
+    mealType: [
+      {
+        type: String,
+        required: true,
+        enum: [
+          'breakfast-snack',
+          'main',
+        ],
+      },
+    ],
     ingredients: [
       {
         type: mongoose.Types.ObjectId,
