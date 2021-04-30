@@ -1,4 +1,3 @@
-var faker = require('faker');
 
 const IngredientsModel = require('../src/models/Ingredients');
 const dummyImages = require('./seeds/imagesDummy')
