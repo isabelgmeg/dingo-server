@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const { createUsers } = require('./users');
 
-const usersDummy = require('./usersDummy.json');
+const usersDummy = require('./seeds/usersDummy.json');
 
 
 

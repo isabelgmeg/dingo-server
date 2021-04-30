@@ -1,16 +1,12 @@
-require('../src/configs/db');
 
 const bcrypt = require('bcrypt');
-
-
-const usersDummy = require('./usersDummy.json');
 
 const UsersModel = require('../src/models/Users');
 
 const dropUsers = async () => {
     await UsersModel.deleteMany({});
   
-    console.info('> users collection deleted!');
+    console.info('> users collection deleted👮🏻‍♂️!');
   };
 
 const createUsers = async (usersDummy) => {
@@ -32,7 +28,7 @@ const createUsers = async (usersDummy) => {
   await dropUsers()
   await UsersModel.insertMany(usersMapped);
   console.info(usersMapped)
-  console.info('> users collection added!');
+  console.info('> users collection added!👦🏼👩🏻‍🦰');
 };
 
 module.exports = {

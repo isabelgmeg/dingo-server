@@ -1,0 +1,1403 @@
+[
+    {
+      "name": "frisee",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 282
+    },
+    {
+      "name": "green pepper",
+      "carbsPer100grams": 31,
+      "fatPer100grams": 19,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 209
+    },
+    {
+      "name": "butternut squash",
+      "carbsPer100grams": 27,
+      "fatPer100grams": 19,
+      "proteinsPer100grams": 9,
+      "calsPer100grams": 290
+    },
+    {
+      "name": "bok choy",
+      "carbsPer100grams": 71,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 237
+    },
+    {
+      "name": "navy bean",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 29,
+      "calsPer100grams": 562
+    },
+    {
+      "name": "okra",
+      "carbsPer100grams": 71,
+      "fatPer100grams": 11,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 596
+    },
+    {
+      "name": "oregano",
+      "carbsPer100grams": 30,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 540
+    },
+    {
+      "name": "herbs and spice",
+      "carbsPer100grams": 12,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 18,
+      "calsPer100grams": 360
+    },
+    {
+      "name": "watercress",
+      "carbsPer100grams": 54,
+      "fatPer100grams": 14,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 232
+    },
+    {
+      "name": "butternut squash",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 16,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 365
+    },
+    {
+      "name": "celeriac",
+      "carbsPer100grams": 38,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 26,
+      "calsPer100grams": 568
+    },
+    {
+      "name": "onion",
+      "carbsPer100grams": 73,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 635
+    },
+    {
+      "name": "fiddlehead",
+      "carbsPer100grams": 35,
+      "fatPer100grams": 13,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 375
+    },
+    {
+      "name": "habanero",
+      "carbsPer100grams": 34,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 30,
+      "calsPer100grams": 525
+    },
+    {
+      "name": "frisee",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 618
+    },
+    {
+      "name": "fiddlehead",
+      "carbsPer100grams": 13,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 492
+    },
+    {
+      "name": "chives",
+      "carbsPer100grams": 66,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 575
+    },
+    {
+      "name": "butternut squash",
+      "carbsPer100grams": 59,
+      "fatPer100grams": 18,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 597
+    },
+    {
+      "name": "jicama",
+      "carbsPer100grams": 68,
+      "fatPer100grams": 12,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 599
+    },
+    {
+      "name": "kohlrabi",
+      "carbsPer100grams": 36,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 590
+    },
+    {
+      "name": "onion",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 247
+    },
+    {
+      "name": "pinto bean",
+      "carbsPer100grams": 79,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 626
+    },
+    {
+      "name": "herbs and spice",
+      "carbsPer100grams": 70,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 347
+    },
+    {
+      "name": "pumpkin",
+      "carbsPer100grams": 40,
+      "fatPer100grams": 17,
+      "proteinsPer100grams": 29,
+      "calsPer100grams": 551
+    },
+    {
+      "name": "thyme",
+      "carbsPer100grams": 36,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 284
+    },
+    {
+      "name": "corn salad",
+      "carbsPer100grams": 41,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 18,
+      "calsPer100grams": 631
+    },
+    {
+      "name": "squash",
+      "carbsPer100grams": 43,
+      "fatPer100grams": 11,
+      "proteinsPer100grams": 30,
+      "calsPer100grams": 514
+    },
+    {
+      "name": "mung bean",
+      "carbsPer100grams": 20,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 374
+    },
+    {
+      "name": "calabrese",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 21,
+      "calsPer100grams": 660
+    },
+    {
+      "name": "white radish",
+      "carbsPer100grams": 58,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 282
+    },
+    {
+      "name": "butternut squash",
+      "carbsPer100grams": 50,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 260
+    },
+    {
+      "name": "marjoram",
+      "carbsPer100grams": 45,
+      "fatPer100grams": 18,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 208
+    },
+    {
+      "name": "tabasco pepper",
+      "carbsPer100grams": 55,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 24,
+      "calsPer100grams": 297
+    },
+    {
+      "name": "pumpkin",
+      "carbsPer100grams": 68,
+      "fatPer100grams": 16,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 649
+    },
+    {
+      "name": "cabbage",
+      "carbsPer100grams": 79,
+      "fatPer100grams": 19,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 441
+    },
+    {
+      "name": "spaghetti squash",
+      "carbsPer100grams": 72,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 541
+    },
+    {
+      "name": "spaghetti squash",
+      "carbsPer100grams": 18,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 29,
+      "calsPer100grams": 611
+    },
+    {
+      "name": "spinach",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 14,
+      "proteinsPer100grams": 23,
+      "calsPer100grams": 317
+    },
+    {
+      "name": "hubbard squash",
+      "carbsPer100grams": 58,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 318
+    },
+    {
+      "name": "caraway",
+      "carbsPer100grams": 67,
+      "fatPer100grams": 13,
+      "proteinsPer100grams": 24,
+      "calsPer100grams": 686
+    },
+    {
+      "name": "radish",
+      "carbsPer100grams": 31,
+      "fatPer100grams": 19,
+      "proteinsPer100grams": 17,
+      "calsPer100grams": 307
+    },
+    {
+      "name": "black bean",
+      "carbsPer100grams": 75,
+      "fatPer100grams": 16,
+      "proteinsPer100grams": 28,
+      "calsPer100grams": 352
+    },
+    {
+      "name": "taro",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 18,
+      "proteinsPer100grams": 9,
+      "calsPer100grams": 405
+    },
+    {
+      "name": "topinambur",
+      "carbsPer100grams": 33,
+      "fatPer100grams": 12,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 582
+    },
+    {
+      "name": "caraway",
+      "carbsPer100grams": 60,
+      "fatPer100grams": 14,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 470
+    },
+    {
+      "name": "basil",
+      "carbsPer100grams": 62,
+      "fatPer100grams": 13,
+      "proteinsPer100grams": 22,
+      "calsPer100grams": 239
+    },
+    {
+      "name": "courgette",
+      "carbsPer100grams": 50,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 477
+    },
+    {
+      "name": "rosemary",
+      "carbsPer100grams": 52,
+      "fatPer100grams": 17,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 316
+    },
+    {
+      "name": "sweet potato",
+      "carbsPer100grams": 16,
+      "fatPer100grams": 16,
+      "proteinsPer100grams": 30,
+      "calsPer100grams": 522
+    },
+    {
+      "name": "jerusalem artichoke",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 17,
+      "proteinsPer100grams": 26,
+      "calsPer100grams": 465
+    },
+    {
+      "name": "broad beans",
+      "carbsPer100grams": 41,
+      "fatPer100grams": 12,
+      "proteinsPer100grams": 23,
+      "calsPer100grams": 480
+    },
+    {
+      "name": "topinambur",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 11,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 529
+    },
+    {
+      "name": "anise",
+      "carbsPer100grams": 53,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 495
+    },
+    {
+      "name": "mamey",
+      "carbsPer100grams": 70,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 271
+    },
+    {
+      "name": "mustard green",
+      "carbsPer100grams": 57,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 23,
+      "calsPer100grams": 610
+    },
+    {
+      "name": "bok choy",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 640
+    },
+    {
+      "name": "cauliflower",
+      "carbsPer100grams": 37,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 16,
+      "calsPer100grams": 504
+    },
+    {
+      "name": "shallot",
+      "carbsPer100grams": 16,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 633
+    },
+    {
+      "name": "artichoke",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 19,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 594
+    },
+    {
+      "name": "courgette",
+      "carbsPer100grams": 40,
+      "fatPer100grams": 13,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 518
+    },
+    {
+      "name": "mamey",
+      "carbsPer100grams": 75,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 627
+    },
+    {
+      "name": "spaghetti squash",
+      "carbsPer100grams": 53,
+      "fatPer100grams": 11,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 541
+    },
+    {
+      "name": "taro",
+      "carbsPer100grams": 44,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 26,
+      "calsPer100grams": 510
+    },
+    {
+      "name": "okra",
+      "carbsPer100grams": 30,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 662
+    },
+    {
+      "name": "chamomile",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 394
+    },
+    {
+      "name": "horseradish",
+      "carbsPer100grams": 49,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 24,
+      "calsPer100grams": 427
+    },
+    {
+      "name": "rosemary",
+      "carbsPer100grams": 35,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 215
+    },
+    {
+      "name": "broad beans",
+      "carbsPer100grams": 44,
+      "fatPer100grams": 19,
+      "proteinsPer100grams": 27,
+      "calsPer100grams": 408
+    },
+    {
+      "name": "tat soi",
+      "carbsPer100grams": 60,
+      "fatPer100grams": 14,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 540
+    },
+    {
+      "name": "wasabi",
+      "carbsPer100grams": 51,
+      "fatPer100grams": 14,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 563
+    },
+    {
+      "name": "cucumber",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 18,
+      "proteinsPer100grams": 24,
+      "calsPer100grams": 209
+    },
+    {
+      "name": "mamey",
+      "carbsPer100grams": 71,
+      "fatPer100grams": 11,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 536
+    },
+    {
+      "name": "lemon grass",
+      "carbsPer100grams": 42,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 278
+    },
+    {
+      "name": "watercress",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 22,
+      "calsPer100grams": 481
+    },
+    {
+      "name": "nopale",
+      "carbsPer100grams": 58,
+      "fatPer100grams": 11,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 637
+    },
+    {
+      "name": "dill",
+      "carbsPer100grams": 39,
+      "fatPer100grams": 17,
+      "proteinsPer100grams": 22,
+      "calsPer100grams": 492
+    },
+    {
+      "name": "endive",
+      "carbsPer100grams": 46,
+      "fatPer100grams": 16,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 420
+    },
+    {
+      "name": "skirret",
+      "carbsPer100grams": 63,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 20,
+      "calsPer100grams": 479
+    },
+    {
+      "name": "hubbard squash",
+      "carbsPer100grams": 30,
+      "fatPer100grams": 13,
+      "proteinsPer100grams": 26,
+      "calsPer100grams": 353
+    },
+    {
+      "name": "lemon grass",
+      "carbsPer100grams": 71,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 340
+    },
+    {
+      "name": "legume",
+      "carbsPer100grams": 75,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 347
+    },
+    {
+      "name": "cauliflower",
+      "carbsPer100grams": 48,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 16,
+      "calsPer100grams": 218
+    },
+    {
+      "name": "basil",
+      "carbsPer100grams": 66,
+      "fatPer100grams": 18,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 577
+    },
+    {
+      "name": "potato",
+      "carbsPer100grams": 38,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 16,
+      "calsPer100grams": 600
+    },
+    {
+      "name": "turnip",
+      "carbsPer100grams": 46,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 348
+    },
+    {
+      "name": "mangetout",
+      "carbsPer100grams": 55,
+      "fatPer100grams": 13,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 614
+    },
+    {
+      "name": "mamey",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 466
+    },
+    {
+      "name": "taro",
+      "carbsPer100grams": 67,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 403
+    },
+    {
+      "name": "radicchio",
+      "carbsPer100grams": 48,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 16,
+      "calsPer100grams": 306
+    },
+    {
+      "name": "navy bean",
+      "carbsPer100grams": 39,
+      "fatPer100grams": 16,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 638
+    },
+    {
+      "name": "taro",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 21,
+      "calsPer100grams": 482
+    },
+    {
+      "name": "jicama",
+      "carbsPer100grams": 57,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 19,
+      "calsPer100grams": 557
+    },
+    {
+      "name": "fiddlehead",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 690
+    },
+    {
+      "name": "lettuce",
+      "carbsPer100grams": 63,
+      "fatPer100grams": 20,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 512
+    },
+    {
+      "name": "horseradish",
+      "carbsPer100grams": 64,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 24,
+      "calsPer100grams": 515
+    },
+    {
+      "name": "wasabi",
+      "carbsPer100grams": 48,
+      "fatPer100grams": 17,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 476
+    },
+    {
+      "name": "chard",
+      "carbsPer100grams": 63,
+      "fatPer100grams": 15,
+      "proteinsPer100grams": 28,
+      "calsPer100grams": 453
+    },
+    {
+      "name": "chickpea",
+      "carbsPer100grams": 66,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 16,
+      "calsPer100grams": 237
+    },
+    {
+      "name": "anise",
+      "carbsPer100grams": 62,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 591
+    },
+    {
+      "name": "turnip",
+      "carbsPer100grams": 55,
+      "fatPer100grams": 17,
+      "proteinsPer100grams": 27,
+      "calsPer100grams": 231
+    },
+    {
+      "name": "papaya",
+      "carbsPer100grams": 20,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 295
+    },
+    {
+      "name": "guava",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 100
+    },
+    {
+      "name": "pear",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 131
+    },
+    {
+      "name": "rock melon",
+      "carbsPer100grams": 16,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 99
+    },
+    {
+      "name": "cranberry",
+      "carbsPer100grams": 19,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 108
+    },
+    {
+      "name": "jambul",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 9,
+      "calsPer100grams": 297
+    },
+    {
+      "name": "raspberry",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 246
+    },
+    {
+      "name": "bell pepper",
+      "carbsPer100grams": 12,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 213
+    },
+    {
+      "name": "raisin",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 38
+    },
+    {
+      "name": "date",
+      "carbsPer100grams": 17,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 87
+    },
+    {
+      "name": "lemon",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 21
+    },
+    {
+      "name": "grapefruit",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 171
+    },
+    {
+      "name": "cherimoya",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 163
+    },
+    {
+      "name": "salal berry",
+      "carbsPer100grams": 27,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 247
+    },
+    {
+      "name": "cranberry",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 294
+    },
+    {
+      "name": "tangerine",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 144
+    },
+    {
+      "name": "bilberry",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 169
+    },
+    {
+      "name": "canary melon",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 237
+    },
+    {
+      "name": "pomelo",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 164
+    },
+    {
+      "name": "bell pepper",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 116
+    },
+    {
+      "name": "eggplant",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 184
+    },
+    {
+      "name": "huckleberry",
+      "carbsPer100grams": 18,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 270
+    },
+    {
+      "name": "jackfruit",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 108
+    },
+    {
+      "name": "dragonfruit",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 230
+    },
+    {
+      "name": "tomato",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 265
+    },
+    {
+      "name": "banana",
+      "carbsPer100grams": 27,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 225
+    },
+    {
+      "name": "chili pepper",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 85
+    },
+    {
+      "name": "orange",
+      "carbsPer100grams": 26,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 144
+    },
+    {
+      "name": "purple mangosteen",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 96
+    },
+    {
+      "name": "blackcurrant",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 180
+    },
+    {
+      "name": "watermelon",
+      "carbsPer100grams": 13,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 241
+    },
+    {
+      "name": "satsuma",
+      "carbsPer100grams": 20,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 145
+    },
+    {
+      "name": "cranberry",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 9,
+      "calsPer100grams": 260
+    },
+    {
+      "name": "avocado",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 115
+    },
+    {
+      "name": "boysenberry",
+      "carbsPer100grams": 11,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 157
+    },
+    {
+      "name": "lime",
+      "carbsPer100grams": 26,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 150
+    },
+    {
+      "name": "canary melon",
+      "carbsPer100grams": 17,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 140
+    },
+    {
+      "name": "ugli fruit",
+      "carbsPer100grams": 13,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 290
+    },
+    {
+      "name": "tangerine",
+      "carbsPer100grams": 26,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 230
+    },
+    {
+      "name": "tangerine",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 273
+    },
+    {
+      "name": "strawberry",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 69
+    },
+    {
+      "name": "tomato",
+      "carbsPer100grams": 12,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 265
+    },
+    {
+      "name": "rock melon",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 125
+    },
+    {
+      "name": "nut",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 205
+    },
+    {
+      "name": "jambul",
+      "carbsPer100grams": 18,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 179
+    },
+    {
+      "name": "gooseberry",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 268
+    },
+    {
+      "name": "chili pepper",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 133
+    },
+    {
+      "name": "grape",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 226
+    },
+    {
+      "name": "nut",
+      "carbsPer100grams": 18,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 171
+    },
+    {
+      "name": "jackfruit",
+      "carbsPer100grams": 19,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 88
+    },
+    {
+      "name": "honeydew",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 96
+    },
+    {
+      "name": "olive",
+      "carbsPer100grams": 27,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 62
+    },
+    {
+      "name": "feijoa",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 154
+    },
+    {
+      "name": "boysenberry",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 184
+    },
+    {
+      "name": "gooseberry",
+      "carbsPer100grams": 26,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 81
+    },
+    {
+      "name": "jujube",
+      "carbsPer100grams": 17,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 144
+    },
+    {
+      "name": "chili pepper",
+      "carbsPer100grams": 13,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 280
+    },
+    {
+      "name": "lemon",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 97
+    },
+    {
+      "name": "canary melon",
+      "carbsPer100grams": 16,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 57
+    },
+    {
+      "name": "nut",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 76
+    },
+    {
+      "name": "grapefruit",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 241
+    },
+    {
+      "name": "currant",
+      "carbsPer100grams": 27,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 209
+    },
+    {
+      "name": "apricot",
+      "carbsPer100grams": 18,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 286
+    },
+    {
+      "name": "honeydew",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 22
+    },
+    {
+      "name": "cherry",
+      "carbsPer100grams": 12,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 82
+    },
+    {
+      "name": "nectarine",
+      "carbsPer100grams": 23,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 177
+    },
+    {
+      "name": "cucumber",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 42
+    },
+    {
+      "name": "gooseberry",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 8,
+      "calsPer100grams": 111
+    },
+    {
+      "name": "strawberry",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 10,
+      "calsPer100grams": 35
+    },
+    {
+      "name": "apple",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 200
+    },
+    {
+      "name": "feijoa",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 139
+    },
+    {
+      "name": "papaya",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 69
+    },
+    {
+      "name": "durian",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 142
+    },
+    {
+      "name": "damson",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 176
+    },
+    {
+      "name": "strawberry",
+      "carbsPer100grams": 12,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 5,
+      "calsPer100grams": 223
+    },
+    {
+      "name": "jackfruit",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 173
+    },
+    {
+      "name": "lychee",
+      "carbsPer100grams": 28,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 246
+    },
+    {
+      "name": "avocado",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 123
+    },
+    {
+      "name": "feijoa",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 5,
+      "proteinsPer100grams": 14,
+      "calsPer100grams": 235
+    },
+    {
+      "name": "apple",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 158
+    },
+    {
+      "name": "breadfruit",
+      "carbsPer100grams": 13,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 41
+    },
+    {
+      "name": "raspberry",
+      "carbsPer100grams": 19,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 298
+    },
+    {
+      "name": "strawberry",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 15,
+      "calsPer100grams": 199
+    },
+    {
+      "name": "bilberry",
+      "carbsPer100grams": 30,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 13,
+      "calsPer100grams": 253
+    },
+    {
+      "name": "cherimoya",
+      "carbsPer100grams": 15,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 166
+    },
+    {
+      "name": "date",
+      "carbsPer100grams": 18,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 269
+    },
+    {
+      "name": "grapefruit",
+      "carbsPer100grams": 14,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 6,
+      "calsPer100grams": 80
+    },
+    {
+      "name": "cherry",
+      "carbsPer100grams": 25,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 64
+    },
+    {
+      "name": "rock melon",
+      "carbsPer100grams": 11,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 144
+    },
+    {
+      "name": "purple mangosteen",
+      "carbsPer100grams": 20,
+      "fatPer100grams": 7,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 126
+    },
+    {
+      "name": "bilberry",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 99
+    },
+    {
+      "name": "dragonfruit",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 12,
+      "calsPer100grams": 130
+    },
+    {
+      "name": "raisin",
+      "carbsPer100grams": 24,
+      "fatPer100grams": 9,
+      "proteinsPer100grams": 7,
+      "calsPer100grams": 253
+    },
+    {
+      "name": "lemon",
+      "carbsPer100grams": 11,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 9,
+      "calsPer100grams": 134
+    },
+    {
+      "name": "physalis",
+      "carbsPer100grams": 10,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 4,
+      "calsPer100grams": 247
+    },
+    {
+      "name": "grape",
+      "carbsPer100grams": 13,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 71
+    },
+    {
+      "name": "dragonfruit",
+      "carbsPer100grams": 29,
+      "fatPer100grams": 6,
+      "proteinsPer100grams": 11,
+      "calsPer100grams": 300
+    },
+    {
+      "name": "guava",
+      "carbsPer100grams": 21,
+      "fatPer100grams": 8,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 177
+    },
+    {
+      "name": "apple",
+      "carbsPer100grams": 19,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 3,
+      "calsPer100grams": 184
+    },
+    {
+      "name": "cherry",
+      "carbsPer100grams": 22,
+      "fatPer100grams": 10,
+      "proteinsPer100grams": 2,
+      "calsPer100grams": 21
+    }
+  ]
+  
