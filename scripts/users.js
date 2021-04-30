@@ -27,7 +27,6 @@ const createUsers = async (usersDummy) => {
 
   await dropUsers()
   await UsersModel.insertMany(usersMapped);
-  console.info(usersMapped)
   console.info('> users collection added!👦🏼👩🏻‍🦰');
 };
 
