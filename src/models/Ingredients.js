@@ -5,7 +5,7 @@ const { Schema } = mongoose;
 //     "name": "pepe",
 //     "carbsPer100grams": 100,
 //     "fatPer100grams": 200,
-//     "proteinesPer100grams": 200,
+//     "proteinsPer100grams": 200,
 //     "calServingPer100grams": 100,
 //     "intolerances": ["lactose-intolerant"],
 //     "picture":'www.google.com',
@@ -25,7 +25,7 @@ const IngredientsSchema = new Schema(
       type: Number,
       required: true,
     },
-    proteinesPer100grams: {
+    proteinsPer100grams: {
       type: Number,
       required: true,
     },
