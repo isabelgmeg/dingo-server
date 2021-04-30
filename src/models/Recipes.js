@@ -82,6 +82,7 @@ const RecipesSchema = new Schema(
           'gluten-intolerant',
           'nut-alergy',
           'fructose',
+          'none'
         ],
       },
     ],

@@ -67,12 +67,13 @@ const BiometricsSchema = new Schema(
     intolerances: [
       {
         type: String,
-        enum: [
+        enum: [[
           'lactose-intolerant',
           'gluten-intolerant',
           'nut-alergy',
           'fructose',
-        ],
+          'none'
+        ]
       },
     ],
     elabTimePerDay: {

@@ -37,15 +37,17 @@ const IngredientsSchema = new Schema(
       {
         type: String,
         enum: [
-          "lactose-intolerant",
-          "gluten-intolerant",
-          "nut-alergy",
-          "fructose",
-        ],
-      },
+          'lactose-intolerant',
+          'gluten-intolerant',
+          'nut-alergy',
+          'fructose',
+          'none'
+        ]
+      }
     ],
     picture: {
       type: String,
+      required: true,
     },
   },
   {
