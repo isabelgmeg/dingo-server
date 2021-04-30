@@ -3,7 +3,8 @@ const { Schema } = mongoose;
 
 // const recipe = {
 //     "name": "pepe",
-//      "ingredients": id from INGREDIENTS,
+//      "ingredients": [{id: id from INGREDIENTS,
+//                      gramsPerIngredient: Number}],
 //      "mealType": 'main'
 //      "gramsPerRecipe": 100
 //      "elabTime":100 IN MINUTESSS
@@ -34,16 +35,19 @@ const RecipesSchema = new Schema(
       {
         type: String,
         required: true,
-        enum: [
-          'breakfast-snack',
-          'main',
-        ],
+        enum: ['breakfast-snack', 'main'],
       },
     ],
     ingredients: [
       {
         type: mongoose.Types.ObjectId,
         ref: 'Ingredients',
+      },
+      {
+        gramsPerIngredient: {
+          type: Number,
+          required: true,
+        },
       },
     ],
     gramsPerRecipe: {
