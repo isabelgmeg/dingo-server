@@ -4,7 +4,7 @@ const IngredientsModel = require('../src/models/Ingredients');
 const dummyImages = require('./seeds/imagesDummy');
 const dummyRecipes = require('./seeds/recipesDummy.json');
 
-const selectRandomIngredient = (array) =>
+const selectRandomElement = (array) =>
   array[Math.floor(Math.random() * array.length)];
 
 const populateRecipes = (recipesArr, ingredientsArr) =>
@@ -15,12 +15,33 @@ const populateRecipes = (recipesArr, ingredientsArr) =>
 
 const populateIngredients = (ingredientsArr, randomQuantityEle, recipe) => {
   for (let i = 0; i < randomQuantityEle; i++) {
-    const selectedIngredient = selectRandomIngredient(ingredientsArr);
+    const selectedIngredient = selectRandomElement(ingredientsArr);
     if (!recipe.ingredients.includes(selectedIngredient)) {
       recipe.ingredients.push(selectedIngredient);
     }
   }
 };
+
+const randomPic = dummyImages[Math.floor(Math.random() * dummyImages.length)]
+
+
+let intolerancesType = [
+  'lactose-intolerant',
+  'gluten-intolerant',
+  'nut-alergy',
+  'fructose',
+  'none',
+  'none',
+  'none',
+  'none',
+  'none',
+  'none',
+  'none',
+  'none',
+  'none',
+];
+
+let mealTypes = ['breakfast-snack', 'main', 'main', 'main', 'main', 'main']
 
 const createRecipes = async () => {
   const ingredients = await IngredientsModel.find({});
@@ -36,15 +57,11 @@ const createRecipes = async () => {
   const newRecipes = dummyRecipes.map((recipe) => ({
     ...recipe,
     ingredients: [],
-    mealType: '',
-    intolerances: [],
-    picture: '',
+    mealType: selectRandomElement(mealTypes),
+    intolerances: [selectRandomElement(intolerancesType)],
+    picture: randomPic,
     createdBy: 'dingo',
   }));
-
-  //console.info('newRecipes', newRecipes);
-
-  //return newRecipes;
 
   populateRecipes(newRecipes, ingredientsArray);
 
