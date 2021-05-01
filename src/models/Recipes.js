@@ -3,8 +3,12 @@ const { Schema } = mongoose;
 
 // const recipe = {
 //     "name": "pepe",
-//      "ingredients": [{id: id from INGREDIENTS,
-//                      gramsPerIngredient: Number}],
+//      "ingredients": [
+//        {
+//        {id: id from INGREDIENTS}
+//          {gramsPerIngredient: Number}
+//           },
+//       ],
 //      "mealType": 'main'
 //      "gramsPerRecipe": 100
 //      "elabTime":100 IN MINUTESSS
@@ -40,10 +44,12 @@ const RecipesSchema = new Schema(
     ],
     ingredients: [
       {
-        type: mongoose.Types.ObjectId,
-        ref: 'Ingredients',
-      },
-      {
+        type: Object,
+        required: true,
+        ingredient: {
+          type: mongoose.Types.ObjectId,
+          ref: 'Ingredients',
+        },
         gramsPerIngredient: {
           type: Number,
           required: true,
@@ -82,7 +88,7 @@ const RecipesSchema = new Schema(
           'gluten-intolerant',
           'nut-alergy',
           'fructose',
-          'none'
+          'none',
         ],
       },
     ],
