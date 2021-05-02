@@ -3,8 +3,12 @@ const { Schema } = mongoose;
 
 // const recipe = {
 //     "name": "pepe",
-//      "ingredients": [{id: id from INGREDIENTS,
-//                      gramsPerIngredient: Number}],
+//      "ingredients": [
+//        {
+//          {id from INGREDIENTS}
+//          {gramsPerIngredient: Number}
+//         }
+//       ],
 //      "mealType": 'main'
 //      "gramsPerRecipe": 100
 //      "elabTime":100 IN MINUTESSS
@@ -25,6 +29,17 @@ const { Schema } = mongoose;
 //
 // }
 
+// ingredients: [
+//   { 
+//     ingredient: asjhdgadjhfagjh,
+//     gramsPerIngredient: 1000
+//   },
+//   { 
+//     ingredient: asjhdgadjhfagjh,
+//     gramsPerIngredient: 1000
+//   },
+// ],
+
 const RecipesSchema = new Schema(
   {
     name: {
@@ -39,16 +54,23 @@ const RecipesSchema = new Schema(
       },
     ],
     ingredients: [
-      {
-        type: mongoose.Types.ObjectId,
-        ref: 'Ingredients',
-      },
-      {
-        gramsPerIngredient: {
+
+      //ingredients.ingredientsInfo.ingredient.
+      { type: Object,
+        ingredientsInfo: 
+        {
+          type: Object,
+          required: true,
+          ingredient: {
+            type: mongoose.Types.ObjectId,
+            ref: 'Ingredients',
+          },
+          gramsPerIngredient: {
           type: Number,
           required: true,
         },
-      },
+        }
+      }
     ],
     gramsPerRecipe: {
       type: Number,
@@ -59,10 +81,6 @@ const RecipesSchema = new Schema(
       required: true,
     },
     carbs: {
-      type: Number,
-      required: true,
-    },
-    fat: {
       type: Number,
       required: true,
     },
@@ -82,7 +100,7 @@ const RecipesSchema = new Schema(
           'gluten-intolerant',
           'nut-alergy',
           'fructose',
-          'none'
+          'none',
         ],
       },
     ],
@@ -94,10 +112,7 @@ const RecipesSchema = new Schema(
       required: true,
     },
     createdBy: {
-      type: mongoose.Types.ObjectId,
-      ref: 'Users',
-      unique: true,
-      required: true,
+      type: String,
     },
   },
   {

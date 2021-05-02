@@ -3,6 +3,7 @@ require('dotenv').config();
 
 const { createUsers } = require('./users');
 const { createIngredients } = require('./ingredients')
+const { createRecipes } = require('./recipes')
 
 const usersDummy = require('./seeds/usersDummy.json');
 const ingredientsDummy = require('./seeds/ingredientsDummy.json');
@@ -14,8 +15,7 @@ const ingredientsDummy = require('./seeds/ingredientsDummy.json');
   try {
     await createUsers(usersDummy);
     await createIngredients(ingredientsDummy)
-    console.info(ingredientsDummy)
-
+    await createRecipes()
   } catch (error) {
     console.error(error);
   }

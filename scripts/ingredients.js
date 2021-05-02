@@ -26,7 +26,6 @@ const createIngredients = async (ingredientsDummy) => {
 
   await dropIngredients();
   await IngredientsModel.insertMany(ingredientsMapped);
-  console.info(ingredientsMapped);
   console.info('> ingredients collection added!🍳🥕🌽');
 };
 
