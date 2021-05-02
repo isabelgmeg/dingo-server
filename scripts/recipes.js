@@ -8,19 +8,24 @@ const selectRandomElement = (array) =>
   array[Math.floor(Math.random() * array.length)];
 
 const populateRecipes = (recipesArr, ingredientsArr) =>
-  recipesArr.forEach((recipe) => {
+  recipesArr.forEach((recipeToPopulate) => {
     const randomQuantityIngredients = Math.floor(2 + Math.random() * 8);
-    populateIngredients(ingredientsArr, randomQuantityIngredients, recipe);
+    populateIngredients(ingredientsArr, randomQuantityIngredients, recipeToPopulate);
   });
 
-const populateIngredients = (ingredientsArr, randomQuantityEle, recipe) => {
+const populateIngredients = (ingredientsArr, randomQuantityEle, recipeToPopulate) => {
   for (let i = 0; i < randomQuantityEle; i++) {
     const selectedIngredient = selectRandomElement(ingredientsArr);
-    if (!recipe.ingredients.includes(selectedIngredient)) {
-      recipe.ingredients.push(selectedIngredient);
+    console.info("recipeToPopulate.ingredients => ",recipeToPopulate.ingredients.ingredientsInfo)
+
+    if (!recipeToPopulate.ingredients.ingredientsInfo.ingredient.includes(selectedIngredient)) {
+       recipeToPopulate.ingredients.ingredientsInfo.push(selectedIngredient);
     }
+
   }
 };
+
+const randomGrams = Math.floor(Math.random() * 300) + 15
 
 const randomPic = dummyImages[Math.floor(Math.random() * dummyImages.length)]
 
@@ -41,7 +46,7 @@ let intolerancesType = [
   'none',
 ];
 
-let mealTypes = ['breakfast-snack', 'main', 'main', 'main', 'main', 'main']
+let mealTypes = ['breakfast-snack', 'main', 'main', 'main', 'main', ]
 
 const createRecipes = async () => {
   const ingredients = await IngredientsModel.find({});
@@ -56,7 +61,12 @@ const createRecipes = async () => {
   }
   const newRecipes = dummyRecipes.map((recipe) => ({
     ...recipe,
-    ingredients: [],
+    ingredients: [{
+        ingredientsInfo: { 
+            ingredient,
+            gramsPerIngredient:randomGrams
+        }}
+    ],
     mealType: selectRandomElement(mealTypes),
     intolerances: [selectRandomElement(intolerancesType)],
     picture: randomPic,
@@ -65,8 +75,11 @@ const createRecipes = async () => {
 
   populateRecipes(newRecipes, ingredientsArray);
 
-  console.info(newRecipes);
-  return newRecipes;
+  //console.info(newRecipes);
+  //return newRecipes;
+
+  await RecipesModel.insertMany(newRecipes);
+  console.info('> Recipes collection added!🍳');
 };
 
 module.exports = {
