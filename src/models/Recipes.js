@@ -1,13 +1,23 @@
 const mongoose = require('mongoose');
+
+const ingredientQuantity = require('./ingredientQuantity');
+
 const { Schema } = mongoose;
 
 // const recipe = {
 //     "name": "pepe",
-//      "ingredients": [
-//        {
-//          {id from INGREDIENTS}
-//          {gramsPerIngredient: Number}
-//         }
+//      "ingredientsInfo": [
+//          {
+//      recipeId: {
+//      type: mongoose.Schema.Types.ObjectId,
+//      ref: 'Recipes',
+//    },
+//    ingredientId: {
+//      type: mongoose.Schema.Types.ObjectId,
+//      ref: 'Ingredients',
+//   },
+//    gramsPerIngredient: { type: Number },
+//  }
 //       ],
 //      "mealType": 'main'
 //      "gramsPerRecipe": 100
@@ -53,25 +63,10 @@ const RecipesSchema = new Schema(
         enum: ['breakfast-snack', 'main'],
       },
     ],
-    ingredients: [
-
-      //ingredients.ingredientsInfo.ingredient.
-      { type: Object,
-        ingredientsInfo: 
-        {
-          type: Object,
-          required: true,
-          ingredient: {
-            type: mongoose.Types.ObjectId,
-            ref: 'Ingredients',
-          },
-          gramsPerIngredient: {
-          type: Number,
-          required: true,
-        },
-        }
-      }
-    ],
+    ingredientsInfo: [ingredientQuantity],
+    totalIngredients:{
+      type: Number
+    },
     gramsPerRecipe: {
       type: Number,
       required: true,
@@ -110,9 +105,11 @@ const RecipesSchema = new Schema(
     instructions: {
       type: String,
       required: true,
+      trim: true,
     },
     createdBy: {
       type: String,
+      unique: false
     },
   },
   {
