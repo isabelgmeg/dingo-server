@@ -58,6 +58,10 @@ const BiometricsSchema = new Schema(
       type: Number,
       required: true,
     },
+    basalMetabolicRate: {
+      type: Number,
+      required: true,
+    },
     objectives: {
       type: String,
       enum: ['add-muscle', 'lose-weight', 'eat-healthier'],
