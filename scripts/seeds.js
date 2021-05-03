@@ -9,8 +9,6 @@ const usersDummy = require('./seeds/usersDummy.json');
 const ingredientsDummy = require('./seeds/ingredientsDummy.json');
 
 
-
-
 (async () => {
   try {
     await createUsers(usersDummy);

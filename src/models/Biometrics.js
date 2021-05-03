@@ -14,6 +14,7 @@ const { Schema } = mongoose;
 //       "dateWeight": 11/02/23,
 //     }
 //   ],
+//    "basalMetabolicRate": 167,
 //   "height": 167,
 //   "objectives": ['add-muscle', 'lose-weight', 'eat-healthier'],
 //   "intolerances": [

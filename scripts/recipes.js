@@ -1,44 +1,10 @@
 const RecipesModel = require('../src/models/Recipes');
 const IngredientsModel = require('../src/models/Ingredients');
 
-const dummyImages = require('./seeds/imagesDummy.json');
 const dummyRecipes = require('./seeds/recipesDummy.json');
 
-const randomPic = dummyImages[Math.floor(Math.random() * dummyImages.length)];
+const { mealTypes, intolerancesType, randomPic, selectRandomElement, populateIngredients } = require('./utils/utils');
 
-const selectRandomElement = (array) =>
-  array[Math.floor(Math.random() * array.length)];
-
-let intolerancesType = [
-  'lactose-intolerant',
-  'gluten-intolerant',
-  'nut-alergy',
-  'fructose',
-  'none',
-  'none',
-  'none',
-  'none',
-  'none',
-  'none',
-  'none',
-  'none',
-  'none',
-];
-
-let mealTypes = ['breakfast-snack', 'main', 'main', 'main', 'main'];
-
-const populateIngredients = (recipesArr, ingredientsArr) => {
-  recipesArr.forEach((recipe) => {
-    const randomQuantityIngredients = Math.floor(2 + Math.random() * 8);
-    for (let i = 0; i < randomQuantityIngredients; i++) {
-      recipe.ingredientsInfo.push({
-        ingredientId: selectRandomElement(ingredientsArr),
-        gramsPerIngredient: Math.floor(Math.random() * 300) + 15,
-      });
-    }
-  });
-  return recipesArr;
-};
 
 const dropRecipes = async () => {
   await RecipesModel.deleteMany({});

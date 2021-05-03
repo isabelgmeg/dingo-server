@@ -1,0 +1,1 @@
+const BiometricsModel = require('../src/models/Biometrics')
