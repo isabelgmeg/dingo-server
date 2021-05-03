@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
-const ingredientQuantity = new Schema(
+const IngredientQuantity = new Schema(
   [{
     ingredientId: {
       type: mongoose.Schema.Types.ObjectId,
@@ -14,4 +14,4 @@ const ingredientQuantity = new Schema(
 }
 );
 
-module.exports = ingredientQuantity;
+module.exports = IngredientQuantity;
