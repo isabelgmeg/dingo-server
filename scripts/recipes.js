@@ -3,8 +3,13 @@ const IngredientsModel = require('../src/models/Ingredients');
 
 const dummyRecipes = require('./seeds/recipesDummy.json');
 
-const { mealTypes, intolerancesType, randomPic, selectRandomElement, populateIngredients } = require('./utils/utils');
-
+const {
+  mealTypes,
+  intolerancesType,
+  randomPic,
+  selectRandomElement,
+  populateIngredients,
+} = require('./utils/utils');
 
 const dropRecipes = async () => {
   await RecipesModel.deleteMany({});
@@ -13,9 +18,6 @@ const dropRecipes = async () => {
 };
 
 const createRecipes = async () => {
-  //popular modelo ingredientsquantity:
-
-  //array de ingredientes
   const ingredients = await IngredientsModel.find({});
 
   ingredientsArray = [];
@@ -25,8 +27,6 @@ const createRecipes = async () => {
 
     ingredientsArray.push(id);
   }
-
-  //array de recetas
 
   const newRecipes = dummyRecipes.map((recipe) => ({
     ...recipe,

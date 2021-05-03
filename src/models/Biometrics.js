@@ -29,6 +29,11 @@ const { Schema } = mongoose;
 
 const BiometricsSchema = new Schema(
   {
+    userId:
+      {
+        type: mongoose.Types.ObjectId,
+        ref: 'Users'
+      },
     gender: {
       type: String,
       enum: ['male', 'female', 'notSpecified'],
@@ -40,6 +45,10 @@ const BiometricsSchema = new Schema(
       required: true,
       min: 1,
       max: 110,
+    },
+    weight: {
+      type: Number,
+      required: true,
     },
     weightProgress: [
       {
@@ -77,6 +86,7 @@ const BiometricsSchema = new Schema(
           'gluten-intolerant',
           'nut-alergy',
           'fructose',
+          'none',
         ],
       },
     ],
