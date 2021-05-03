@@ -68,7 +68,7 @@ const createRecipes = async () => {
     mealType: selectRandomElement(mealTypes),
     intolerances: [selectRandomElement(intolerancesType)],
     picture: randomPic,
-    createdBy: ('_' + Math.random().toString(36).substr(2, 9)),
+    createdBy: '_' + Math.random().toString(36).substr(2, 9),
   }));
 
   const newRecipesWithIngredients = populateIngredients(

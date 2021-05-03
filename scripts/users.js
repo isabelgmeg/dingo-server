@@ -9,9 +9,9 @@ const dropUsers = async () => {
     console.info('> users collection deleted👮🏻‍♂️!');
   };
 
-const createUsers = async (usersDummy) => {
+const createUsers = async (data) => {
 
-  const usersMapped = usersDummy.map((singleUser) => {
+  const usersMapped = data.map((singleUser) => {
 
     const password = singleUser.password;
 
