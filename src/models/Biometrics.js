@@ -14,6 +14,7 @@ const { Schema } = mongoose;
 //       "dateWeight": 11/02/23,
 //     }
 //   ],
+//    "basalMetabolicRate": 167,
 //   "height": 167,
 //   "objectives": ['add-muscle', 'lose-weight', 'eat-healthier'],
 //   "intolerances": [
@@ -28,6 +29,11 @@ const { Schema } = mongoose;
 
 const BiometricsSchema = new Schema(
   {
+    userId:
+      {
+        type: mongoose.Types.ObjectId,
+        ref: 'Users'
+      },
     gender: {
       type: String,
       enum: ['male', 'female', 'notSpecified'],
@@ -39,6 +45,10 @@ const BiometricsSchema = new Schema(
       required: true,
       min: 1,
       max: 110,
+    },
+    weight: {
+      type: Number,
+      required: true,
     },
     weightProgress: [
       {
@@ -58,6 +68,10 @@ const BiometricsSchema = new Schema(
       type: Number,
       required: true,
     },
+    basalMetabolicRate: {
+      type: Number,
+      required: true,
+    },
     objectives: {
       type: String,
       enum: ['add-muscle', 'lose-weight', 'eat-healthier'],
@@ -72,6 +86,7 @@ const BiometricsSchema = new Schema(
           'gluten-intolerant',
           'nut-alergy',
           'fructose',
+          'none',
         ],
       },
     ],
