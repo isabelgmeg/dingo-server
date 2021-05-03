@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 
-const ingredientQuantity = require('./ingredientQuantity');
-
 const { Schema } = mongoose;
 
 // const recipe = {
@@ -63,7 +61,17 @@ const RecipesSchema = new Schema(
         enum: ['breakfast-snack', 'main'],
       },
     ],
-    ingredientsInfo: [ingredientQuantity],
+    ingredientsInfo: [{
+      type: Object,
+      ingredientId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Ingredients'
+      },
+      gramsPerIngredient: {
+        type: Number,
+        required: true,
+      }
+    }],
     totalIngredients:{
       type: Number
     },
