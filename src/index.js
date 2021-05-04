@@ -1,32 +1,55 @@
-const express = require('express')
-const cors = require('cors')
-const { PORT } = require('./configs/constants')
+require('dotenv').config();
+const express = require('express');
+const passport = require('passport');
+const cors = require('cors');
+const morgan = require('morgan');
+const cookieSession = require('cookie-session');
 
-const app = express()
+require('./configs/db');
+require('./configs/passport');
+const { PORT } = require('./configs/constants');
 
-require("./configs/db")
+const app = express();
 
-app.use(express.json())
-app.use(express.urlencoded({extended: true}))
+app.use(
+  cors({
+    origin: true,
+    credentials: true
+  })
+);
 
-
-app.use(cors())
+app.use(morgan('combined'));
 
 app.use(express.json());
-
 app.use(express.urlencoded({ extended: false }));
+app.use(
+  cookieSession({
+    maxAge: 24 * 60 * 60 * 1000,
+    keys: [process.env.COOKIE_KEY || 'express-auth-cookie']
+  })
+);
 
+app.use(passport.initialize());
+app.use(passport.session());
 
-app.use((req, res, next) => {
-  next(new Error("Path Not Found"));
+if (process.env.PREVENT_AUTH && process.env.DUMMY_USER) {
+  app.use((req, res, next) => {
+    req.user = process.env.DUMMY_USER;
+    next();
+  });
+}
+
+app.use('/api', require('./routes'));
+
+app.use((_, __, next) => {
+  next(new Error('Path Not Found'));
 });
 
-app.use('/dingo/api/', require('./routes'))
-
 app.use((error, _, res, __) => {
-  res.status(400).json({
+  console.log(error);
+  res.status(error.code || 400).json({
     success: false,
-    message: error.message,
+    message: error.message
   });
 });
 
