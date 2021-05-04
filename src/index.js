@@ -21,6 +21,8 @@ app.use((req, res, next) => {
   next(new Error("Path Not Found"));
 });
 
+app.use('/dingo/api/', require('./routes'))
+
 app.use((error, _, res, __) => {
   res.status(400).json({
     success: false,

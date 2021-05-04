@@ -46,8 +46,6 @@ const createBiometrics = async () => {
       mealsPerDay: Math.floor(Math.random() * 5) + 1,
     };
 
-    //basalMetabolicRate: await basalMetabolicCaculus( this.gender,  this.height,  this.weight,  this.age),
-
     usersData.push(userBiometricData);
   }
   const addMetabolicRate = (array) => {
