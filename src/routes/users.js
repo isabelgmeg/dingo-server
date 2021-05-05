@@ -53,11 +53,7 @@ router.get('/savedRecipes', [isAuthenticated], async (req, res, next) => {
     const userId = req.user;
 
     const userRecipes = await UserModel.findById(userId, {
-      name: 0,
-      password: 0,
-      surname: 0,
-      email: 0,
-      active: 0,
+      recipesSaved:1,
       _id:0
     })
 
@@ -74,17 +70,19 @@ router.get('/savedRecipes', [isAuthenticated], async (req, res, next) => {
       });
     }
 
-    const recipesSaved = userRecipes.get('recipes');
+    const recipesSaved = userRecipes.get('recipesSaved');
 
     res.status(200).json({
       success: true,
-      data: { recipesSaved }
+      data: recipesSaved,
     })
 
   } catch (error) {
     res.status(401).json({ success: false, data: error.message });
   }
 });
+
+
 
 
 module.exports = router;
