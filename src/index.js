@@ -32,14 +32,14 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-if (process.env.PREVENT_AUTH && process.env.DUMMY_USER) {
-  app.use((req, res, next) => {
-    req.user = process.env.DUMMY_USER;
-    next();
-  });
-}
+// if (process.env.PREVENT_AUTH && process.env.DUMMY_USER) {
+//   app.use((req, res, next) => {
+//     req.user = process.env.DUMMY_USER;
+//     next();
+//   });
+// }
 
-app.use('/api', require('./routes'));
+app.use('/dingo', require('./routes/index'));
 
 app.use((_, __, next) => {
   next(new Error('Path Not Found'));

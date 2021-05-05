@@ -3,7 +3,7 @@ const LocalStrategy = require('passport-local').Strategy;
 const bcrypt = require('bcrypt');
 const omitBy = require('lodash/omitBy');
 
-const User = require('../../models/Users');
+const User = require('../models/Users');
 
 passport.use(
   'register',
