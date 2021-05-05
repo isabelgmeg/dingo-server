@@ -40,6 +40,16 @@ const populateIngredients = (recipesArr, ingredientsArr) => {
   return recipesArr;
 };
 
+const populateRecipes = (usersArr, recipesArr) => {
+  usersArr.forEach((user) => {
+    const randomQuantityRecipes = Math.floor(2 + Math.random() * 8);
+    for (let i = 0; i < randomQuantityRecipes; i++) {
+      user.recipesSaved.push(selectRandomElement(recipesArr));
+    }
+  });
+  return usersArr;
+};
+
 // const basalMetabolicCaculus = async (gender, height, weight, age) => {
 //   let tbm = 0
 //     if (await gender==="male"){
@@ -61,32 +71,6 @@ async function getProcessedData(url) {
   return processDataInWorker(v);
 }
 
-// const basalMetabolicCaculus = async (gender, height, weight, age) => {
-//   try {
-//     let tbm = 0;
-//     if ((await gender) === 'male') {
-//       tbm =
-//         66.47 +
-//         13.75 * (await weight) +
-//         (5.003 * (await height) - 6.755 * (await age));
-//     } else if ((await gender) === 'female') {
-//       tbm =
-//         655.1 +
-//         9.563 * (await weight) +
-//         1.85 * (await height) -
-//         4.676 * (await age);
-//     } else {
-//       tbm =
-//         300 +
-//         9.563 * (await weight) +
-//         3.85 * (await height) -
-//         5.676 * (await age);
-//     }
-//     return tbm;
-//   } catch (error) {
-//     console.error('data not retrieved');
-//   }
-// };
 
 const basalMetabolicCaculus = (gender, height, weight, age) => {
   try {
@@ -124,4 +108,5 @@ module.exports = {
   genders,
   basalMetabolicCaculus,
   objectiveTypes,
+  populateRecipes,
 };
