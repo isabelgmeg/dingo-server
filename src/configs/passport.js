@@ -69,10 +69,9 @@ passport.use(
 );
 
 passport.serializeUser((user, done) => {
-  done(null, user.id);
+  done(null, user._id);
 });
 
 passport.deserializeUser((id, done) => {
-  const userId = process.env.PREVENT_AUTH ? process.env.DUMMY_USER : id;
-  done(null, userId);
+  done(null, id);
 });

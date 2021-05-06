@@ -25,25 +25,25 @@ const createBiometrics = async () => {
 
   for (user of users) {
     const id = user.get('_id');
-    const weight = Math.floor(Math.random() * 90) + 55
+    const weight = Math.floor(Math.random() * (90-55)) + 55
 
     const userBiometricData = {
       userId: id,
       gender: selectRandomElement(genders),
       weight,
-      age: Math.floor(Math.random() * 70) + 16,
+      age: Math.floor(Math.random() * (70-16)) + 16,
       weightProgress: [
         {
           weight,
           dateWeight: faker.date.past(1),
         },
       ],
-      height: Math.floor(Math.random() * 210) + 150,
+      height: Math.floor(Math.random() * (210 -150)) + 150,
       basalMetabolicRate: 0,
       intolerances: selectRandomElement(intolerancesType),
       objectiveTypes: selectRandomElement(objectiveTypes),
-      elabTimePerDay: Math.floor(Math.random() * 400) + 10,
-      mealsPerDay: Math.floor(Math.random() * 5) + 1,
+      elabTimePerDay: Math.floor(Math.random() * (240 - 10)) + 10,
+      mealsPerDay: Math.floor(Math.random() * (4-1)) + 1,
     };
 
     usersData.push(userBiometricData);

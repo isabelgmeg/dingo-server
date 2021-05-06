@@ -54,13 +54,11 @@ const BiometricsSchema = new Schema(
       {
         weight: {
           type: Number,
-          required: true,
           min: 20,
           max: 400,
         },
         dateWeight: {
           type: Date,
-          required: true,
         },
       },
     ],

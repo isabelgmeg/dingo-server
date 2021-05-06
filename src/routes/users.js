@@ -72,67 +72,38 @@ router.get('/savedRecipes', [isAuthenticated], async (req, res, next) => {
 });
 
 router.post(
-  '/addRecipe/:recipeId',
+  '/addRecipe/:recipeId', 
   [isAuthenticated],
   async (req, res, next) => {
     try {
       const userId = req.user;
       const { recipeId } = req.params;
 
-      const userRecipes = await UserModel.findById(userId, {
-        recipesSaved: 1,
-        _id: 0,
-      });
+      const userRecipes = await UserModel.findById(userId);
 
-      if (userRecipes.recipesSaved.includes(recipeId)) {
+      const isRecipeRepeated = userRecipes.get('recipesSaved').find((savedRecipeId) => {
+        return savedRecipeId.toString() === recipeId
+      })
+
+      if (isRecipeRepeated) {
         const error = new Error('recipe already in saved recipes');
         error.code = 403;
         throw error;
       }
 
-      userRecipes.recipesSaved.push(recipeId);
-      userRecipes.save(next);
+      const result = await UserModel.findByIdAndUpdate(
+        userId,
+        { $push: { recipesSaved: recipeId } },
+        { new: true }
+      );
 
       res.status(200).json({
         success: true,
-        count: userRecipes.length,
-        data: { userRecipes },
+        count: result.recipesSaved.length,
+        data: result,
       });
     } catch (error) {
-      next(error);
-    }
-  }
-);
-
-router.post(
-  '/addRecipe/:recipeId',
-  [isAuthenticated],
-  async (req, res, next) => {
-    try {
-      const userId = req.user;
-      const { recipeId } = req.params;
-
-      const userRecipes = await UserModel.findById(userId, {
-        recipesSaved: 1,
-        _id: 0,
-      });
-
-      if (userRecipes.recipesSaved.includes(recipeId)) {
-        const error = new Error('recipe already in saved recipes');
-        error.code = 403;
-        throw error;
-      }
-
-      userRecipes.recipesSaved.push(recipeId);
-      userRecipes.save(next);
-
-      res.status(200).json({
-        success: true,
-        count: userRecipes.length,
-        data: { userRecipes },
-      });
-    } catch (error) {
-      next(error);
+      res.status(401).json({ success: false, data: error.message });
     }
   }
 );
@@ -141,27 +112,23 @@ router.put(
   '/removeRecipe/:recipeId',
   [isAuthenticated],
   async (req, res, next) => {
-
     try {
       const { recipeId } = req.params;
       const userId = req.user;
 
-      const userRecipes = await UserModel.findById(filteredUser, {
-        _id: userId,
-        recipesSaved: 1,
-      })
-
-      userRecipes.recipesSaved.pull(recipeId);
-      userRecipes.save(next);
+      const updatedUser = await UserModel.findByIdAndUpdate(
+        userId,
+        { $pull: { recipesSaved: recipeId } },
+        { new: true }
+      );
 
       res.status(200).json({
         success: true,
-        count: userRecipes.length,
-        data: { userRecipes },
-      })
-
+        count: updatedUser.get('recipesSaved').length,
+        data: updatedUser,
+      });
     } catch (error) {
-      next(error)
+      next(error);
     }
   }
 );
