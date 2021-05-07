@@ -6,6 +6,7 @@ const UserModel = require('../models/Users');
 const { isAuthenticated } = require('../middlewares/authentication');
 
 router.put('/modify', [isAuthenticated], async (req, res, next) => {
+
   try {
     const user = await UserModel.findById(req.user);
 
@@ -15,9 +16,7 @@ router.put('/modify', [isAuthenticated], async (req, res, next) => {
       throw error;
     }
 
-    const filteredUser = omitBy(req.body, (value, _) => !value);
-
-    const result = await UserModel.findByIdAndUpdate(req.user, filteredUser, {
+    const result = await UserModel.findByIdAndUpdate(req.user, req.body, {
       new: true,
     });
 
