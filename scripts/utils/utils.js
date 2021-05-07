@@ -61,16 +61,6 @@ const populateRecipes = (usersArr, recipesArr) => {
 //     } return tbm
 // }
 
-async function getProcessedData(url) {
-  let v;
-  try {
-    v = await downloadData(url);
-  } catch (e) {
-    v = await downloadFallbackData(url);
-  }
-  return processDataInWorker(v);
-}
-
 
 const basalMetabolicCaculus = (gender, height, weight, age) => {
   try {
@@ -98,6 +88,8 @@ const basalMetabolicCaculus = (gender, height, weight, age) => {
     console.error('data not retrieved');
   }
 };
+
+const tbmWithObjectives = 
 
 module.exports = {
   mealTypes,

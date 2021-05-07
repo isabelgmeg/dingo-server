@@ -26,4 +26,12 @@ const basalMetabolicCaculus = (gender, height, weight, age) => {
     }
   };
 
-  module.exports = { basalMetabolicCaculus }
+  const bmrWithObjectives = (number, objective) =>{
+    if(objective=== 'add-muscle'){
+      return number* 1.2
+    }else if(objective=== 'lose-weight'){
+      return number* 0.8
+    }else return number
+  }
+
+  module.exports = { basalMetabolicCaculus, bmrWithObjectives }
