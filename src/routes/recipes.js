@@ -16,16 +16,11 @@ router.get('/getMealPlan', [isAuthenticated], async (req, res, next) => {
       const userMealsPerDay = biometricData.get('mealsPerDay');
       const userIntolerances = biometricData.get('intolerances');
 
-      console.log(userMealsPerDay)
-
-    //const resultMealQuantity = checkRecipeQuantityLimits(dataForRecipe);
-
      let maxCalsLimit = Number((userBasalRate / userMealsPerDay) * 1.2);
      let minCalsLimit = Number((userBasalRate / userMealsPerDay) * 0.75);
-     let limitRecipes = Number(userMealsPerDay);
      let maxElabTime = Number((userElabTime/userMealsPerDay)*1.25)
 
-     console.log(maxElabTime)
+     const rnd = Math.floor(Math.random() * (4 - 1 + 1) + 1)
 
       const recipeParams = await RecipesModel.find(
         {
@@ -39,8 +34,7 @@ router.get('/getMealPlan', [isAuthenticated], async (req, res, next) => {
             $lte: Number(maxElabTime)
           },
         },
-      ).limit(userMealsPerDay);
-    console.log(recipeParams);
+      ).skip(rnd).limit(userMealsPerDay);
 
     res.status(200).json({ success: true, data: recipeParams, count: recipeParams.length });
   } catch (error) {
