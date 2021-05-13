@@ -34,4 +34,27 @@ const basalMetabolicCaculus = (gender, height, weight, age) => {
     }else return number
   }
 
-  module.exports = { basalMetabolicCaculus, bmrWithObjectives }
+  const checkRecipeQuantityLimits = (data) =>{
+    const returnData = {
+        "mealQuantityLimit":0,
+        "snackQuantityLimit":0,
+    }
+      if(data.userMealsPerDay === 2){
+        returnData.mealQuantityLimit = data.userMealsPerDay,
+        returnData.snackQuantityLimit = 0
+      }
+      
+      else if(data.userMealsPerDay <= 6){
+
+          if(data.userMealsPerDay%2 == 0){
+              returnData.snackQuantityLimit= Math.round(0.33* data.userMealsPerDay)
+              returnData.mealQuantityLimit =  Math.round(0.66* data.userMealsPerDay)
+          }else{
+            returnData.snackQuantityLimit= 0.4* data.userMealsPerDay
+            returnData.mealQuantityLimit = 0.6* data.userMealsPerDay
+          }
+      }return returnData
+  }
+
+
+  module.exports = { basalMetabolicCaculus, bmrWithObjectives, checkRecipeQuantityLimits }
