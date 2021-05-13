@@ -160,4 +160,84 @@ router.put('/modifyObjectives', [isAuthenticated], async (req, res, next) => {
   }
 });
 
+router.put('/modifyMealsPerDay', [isAuthenticated], async (req, res, next) => {
+  try {
+    const newMeals = req.body.mealsPerDay;
+
+    const result = await BiometricsModel.findOneAndUpdate(
+      { userId: req.user },
+      {
+        mealsPerDay: newMeals ,
+      },
+      { new: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      data: result,
+    });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
+router.put('/modifyIntolerances', [isAuthenticated], async (req, res, next) => {
+  try {
+    const newIntolerances = req.body.intolerances;
+
+    console.log(newIntolerances)
+
+    const result = await BiometricsModel.findOneAndUpdate(
+      { userId: req.user },
+      {
+        intolerances: newIntolerances,
+      },
+      { new: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      data: result,
+    });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
+router.put('/modifyMealsPerDay', [isAuthenticated], async (req, res, next) => {
+  try {
+    const newMeals = req.body.mealsPerDay;
+
+    const result = await BiometricsModel.findOneAndUpdate(
+      { userId: req.user },
+      {
+        mealsPerDay: newMeals ,
+      },
+      { new: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      data: result,
+    });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
+router.get('/weightProgress', [isAuthenticated], async (req, res, next) => {
+
+  try {
+    const result = await BiometricsModel.findOne({ userId: req.user },{weightProgress:1});
+
+    res.status(200).json({
+      success: true,
+      data: result,
+    });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
+
 module.exports = router;
