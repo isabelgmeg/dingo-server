@@ -36,7 +36,6 @@ const createUsers = async (data) => {
 
   populateRecipes(usersMapped, recipesArray);
 
-  console.info(usersMapped.slice(1,3))
   await dropUsers();
   await UsersModel.insertMany(usersMapped);
 };

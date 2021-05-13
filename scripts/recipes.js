@@ -42,8 +42,8 @@ const createRecipes = async () => {
     ingredientsArray
   );
 
-  await dropRecipes();
-  await RecipesModel.insertMany(newRecipesWithIngredients);
+   await dropRecipes();
+   await RecipesModel.insertMany(newRecipesWithIngredients);
   console.info('> Recipes collection added!🍳');
 };
 
