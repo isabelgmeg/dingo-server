@@ -6,56 +6,43 @@ const BiometricsModel = require('../models/Biometrics');
 const { isAuthenticated } = require('../middlewares/authentication');
 const { checkRecipeQuantityLimits } = require('../utils/utils');
 
-router.get('/get', [isAuthenticated], async (req, res, next) => {
+router.get('/getMealPlan', [isAuthenticated], async (req, res, next) => {
   try {
     const userId = req.user;
     const biometricData = await BiometricsModel.findOne({ userId: req.user });
 
-    const dataForRecipe = {
-      userBasalRate: biometricData.get('basalMetabolicRate'),
-      userElabTime: biometricData.get('elabTimePerDay'),
-      userMealsPerDay: biometricData.get('mealsPerDay'),
-      userIntolerances: biometricData.get('intolerances'),
-    };
+      const userBasalRate = biometricData.get('basalMetabolicRate');
+      const userElabTime =  biometricData.get('elabTimePerDay');
+      const userMealsPerDay = biometricData.get('mealsPerDay');
+      const userIntolerances = biometricData.get('intolerances');
 
-    console.log(dataForRecipe);
+      console.log(userMealsPerDay)
 
-    const resultMealQuantity = checkRecipeQuantityLimits(dataForRecipe);
+    //const resultMealQuantity = checkRecipeQuantityLimits(dataForRecipe);
 
-    // const { mealQuantityLimit, snackQuantityLimit } = resultMealQuantity;
+     let maxCalsLimit = Number((userBasalRate / userMealsPerDay) * 1.2);
+     let minCalsLimit = Number((userBasalRate / userMealsPerDay) * 0.75);
+     let limitRecipes = Number(userMealsPerDay);
+     let maxElabTime = Number((userElabTime/userMealsPerDay)*1.25)
 
-    // if (snackQuantityLimit === 0) {
+     console.log(maxElabTime)
 
-    let maxCalsLimit =
-      (dataForRecipe.userBasalRate / dataForRecipe.userMealsPerDay) * 1.1;
-    let minCalsLimit =
-      (dataForRecipe.userBasalRate / dataForRecipe.userMealsPerDay) * 0.9;
-    let limitRecipes = dataForRecipe.userMealsPerDay;
-
-    console.log(maxCalsLimit, minCalsLimit);
-
-    const recipeParams = await RecipesModel.find(
-      {
-        //mealType: 'main',
-        //intolerances: dataForRecipe.userIntolerances,
-        calories: {
-          $gte: minCalsLimit,
-          $lte: maxCalsLimit,
+      const recipeParams = await RecipesModel.find(
+        {
+          mealType: 'main',
+          intolerances: userIntolerances,
+          calories: {
+            $gte: minCalsLimit,
+            $lte: maxCalsLimit,
+          },
+          elabTime: {
+            $lte: Number(maxElabTime)
+          },
         },
-        //   elabTime: {
-        //     $gte:
-        //       (dataForRecipe.userElabTime / dataForRecipe.userMealsPerDay) *
-        //       0.8,
-        //     $lte:
-        //       (dataForRecipe.userElabTime / dataForRecipe.userMealsPerDay) *
-        //       1.2,
-        //   },
-      }
-      //{ limit: limitRecipes }
-    );
+      ).limit(userMealsPerDay);
     console.log(recipeParams);
 
-    res.status(200).json({ success: true, data: recipeParams });
+    res.status(200).json({ success: true, data: recipeParams, count: recipeParams.length });
   } catch (error) {
     res.status(401).json({ success: false, data: error.message });
   }
