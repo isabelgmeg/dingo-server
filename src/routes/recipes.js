@@ -34,7 +34,7 @@ router.get('/getMealPlan', [isAuthenticated], async (req, res, next) => {
             $lte: Number(maxElabTime)
           },
         },
-      ).skip(rnd).limit(userMealsPerDay);
+      ).skip(rnd).limit(userMealsPerDay).populate('ingredientsInfo.ingredientId');
 
     res.status(200).json({ success: true, data: recipeParams, count: recipeParams.length });
   } catch (error) {
