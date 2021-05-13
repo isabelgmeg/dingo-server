@@ -2697,5 +2697,2705 @@
     "proteins": 9,
     "calories": 588,
     "instructions": "Leberkäse is a meatloaf-like dish which, despite the name, contains neither liver nor cheese. It is commonly served on a Kaiser roll with mustard."
+  },
+  {
+    "name": "soda bread",
+    "gramsPerRecipe": 283,
+    "elabTime": 20,
+    "carbs": 278,
+    "proteins": 11,
+    "calories": 795,
+    "instructions": "Ham and turkey topped with broiled cheese. Sometimes includes bacon and tomato."
+  },
+  {
+    "name": "muffin",
+    "gramsPerRecipe": 342,
+    "elabTime": 26,
+    "carbs": 308,
+    "proteins": 4,
+    "calories": 346,
+    "instructions": "Roast pork, ham, mustard, Swiss cheese, and dill pickles served on sweet bread."
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 324,
+    "elabTime": 7,
+    "carbs": 233,
+    "proteins": 12,
+    "calories": 869,
+    "instructions": "Generic sandwich: This contains eggs, usually sliced hard boiled eggs or egg salad, but may be made with fried or (more rarely) scrambled egg, topped with the local roe spread, locally called kaviar.\nEgg salad sandwich: A chopped egg mixed with mayonaise.\nEggs Benedict is an open-faced sandwich consisting of an English muffin topped with meat, eggs, and hollandaise sauce."
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 490,
+    "elabTime": 10,
+    "carbs": 340,
+    "proteins": 11,
+    "calories": 616,
+    "instructions": "A brown gravy base and chow mein mixture in a hamburger-style bun"
+  },
+  {
+    "name": "roti",
+    "gramsPerRecipe": 575,
+    "elabTime": 35,
+    "carbs": 341,
+    "proteins": 11,
+    "calories": 370,
+    "instructions": "Stewed pork, chopped finely, and stuffed in mo, a kind of flatbread"
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 365,
+    "elabTime": 8,
+    "carbs": 365,
+    "proteins": 5,
+    "calories": 885,
+    "instructions": "Round roll stuffed with sliced meat, sauce, and other ingredients, often made ahead and tightly wrapped to meld the filling with the bread."
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 173,
+    "elabTime": 26,
+    "carbs": 193,
+    "proteins": 11,
+    "calories": 900,
+    "instructions": "Melted cheese, roast beef, tomato and pickled cucumber in a hollowed-out French roll"
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 327,
+    "elabTime": 13,
+    "carbs": 229,
+    "proteins": 12,
+    "calories": 535,
+    "instructions": "Filet américain (steak tartare) with Worcestershire sauce, pickles, onions, peppers and martino sauce"
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 532,
+    "elabTime": 22,
+    "carbs": 299,
+    "proteins": 7,
+    "calories": 755,
+    "instructions": "\"Pita gyro\" or \"psomaki gyro\", depending on the type of bread used, includes meat roasted on a vertical spit, with tomato, raw, often red onion and optional yogurt sauce, wrapped in pita or sandwich bread."
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 443,
+    "elabTime": 15,
+    "carbs": 255,
+    "proteins": 4,
+    "calories": 597,
+    "instructions": "Thinly sliced steak and melted cheese in a long roll, also known as a Philadelphia or Philly cheesesteak."
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 356,
+    "elabTime": 34,
+    "carbs": 368,
+    "proteins": 11,
+    "calories": 484,
+    "instructions": "Form of barbecue in which pork is cooked using a slow cook method until the meat becomes tender enough that it can be \"pulled\", or easily broken into individual pieces"
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 420,
+    "elabTime": 13,
+    "carbs": 382,
+    "proteins": 10,
+    "calories": 339,
+    "instructions": "A halved baguette or other bread usually topped with mushrooms and cheese, ham or other meats, and vegetables"
+  },
+  {
+    "name": "epi",
+    "gramsPerRecipe": 369,
+    "elabTime": 34,
+    "carbs": 160,
+    "proteins": 9,
+    "calories": 679,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 595,
+    "elabTime": 25,
+    "carbs": 383,
+    "proteins": 3,
+    "calories": 391,
+    "instructions": "Sliced calves' brain on sliced bread"
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 488,
+    "elabTime": 15,
+    "carbs": 379,
+    "proteins": 6,
+    "calories": 661,
+    "instructions": "Especially noted from Beigel Bake in Brick Lane, east London."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 358,
+    "elabTime": 5,
+    "carbs": 196,
+    "proteins": 12,
+    "calories": 680,
+    "instructions": "Doner kebab is meat cooked on a vertical spit, normally veal or beef but also may be a mixture of these with lamb, and sometimes chicken that may be served wrapped in a flatbread such as lavash or pita or as a sandwich."
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 525,
+    "elabTime": 6,
+    "carbs": 208,
+    "proteins": 13,
+    "calories": 840,
+    "instructions": "Beef (usually thin cut steak) and cheese"
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 527,
+    "elabTime": 29,
+    "carbs": 303,
+    "proteins": 11,
+    "calories": 315,
+    "instructions": "A thin slice of toast between two thin slices of bread with a layer of butter, and adding salt and pepper to taste."
+  },
+  {
+    "name": "paratha",
+    "gramsPerRecipe": 234,
+    "elabTime": 28,
+    "carbs": 185,
+    "proteins": 12,
+    "calories": 486,
+    "instructions": "Type of sandwich that may be ordered at a deli, choices include type of bread (toasted or untoasted,) type of meat (cold cut), type of sliced cheese, vegetable fillings (lettuce, tomato, onion, etc.) and condiments"
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 466,
+    "elabTime": 13,
+    "carbs": 162,
+    "proteins": 5,
+    "calories": 544,
+    "instructions": "Peanut butter and marshmallow creme. Pictured is a fluffernutter sandwich prior to being assembled."
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 519,
+    "elabTime": 24,
+    "carbs": 182,
+    "proteins": 14,
+    "calories": 893,
+    "instructions": "Thinly sliced churrasco-style steak, or lomito-style pork, with tomatoes, green beans and green chiles, served on a round roll"
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 278,
+    "elabTime": 13,
+    "carbs": 384,
+    "proteins": 12,
+    "calories": 366,
+    "instructions": "Any sandwich containing mortadella, a large Italian sausage"
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 395,
+    "elabTime": 15,
+    "carbs": 138,
+    "proteins": 9,
+    "calories": 805,
+    "instructions": "A convenience dish on a variety of bread rolls, containing such breakfast items as sausages, bacon, white or black pudding, mushrooms, tomatoes, hash browns and fried eggs, often eaten with ketchup or brown sauce,"
+  },
+  {
+    "name": "epi",
+    "gramsPerRecipe": 120,
+    "elabTime": 40,
+    "carbs": 339,
+    "proteins": 12,
+    "calories": 696,
+    "instructions": "Served on a bun, with chopped or sliced meat (pulled pork, beef or chicken typically), and sometimes topped with coleslaw"
+  },
+  {
+    "name": "crumpet",
+    "gramsPerRecipe": 291,
+    "elabTime": 20,
+    "carbs": 177,
+    "proteins": 8,
+    "calories": 739,
+    "instructions": "A square of thin chocolate bar topped with a toasted marshmallow between two squares of graham cracker"
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 562,
+    "elabTime": 16,
+    "carbs": 263,
+    "proteins": 9,
+    "calories": 896,
+    "instructions": "Not a sandwich, it refers to a set of toppings to put in a sandwich, refers to the colors of the Italian flag: red (tomato), white (mayonnaise) and green (avocado)"
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 497,
+    "elabTime": 30,
+    "carbs": 143,
+    "proteins": 4,
+    "calories": 416,
+    "instructions": "Ham and cheese, usually mantecoso, which is similar to farmer cheese"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 558,
+    "elabTime": 27,
+    "carbs": 133,
+    "proteins": 7,
+    "calories": 527,
+    "instructions": "A simple Argentine sandwich, traditionally filled with cheese, cured meat, tomato and mayonnaise. The term pebete actually refers to the bread used for the sandwich; a soft oval bun with a spongy inside, and a thin toasted crust."
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 547,
+    "elabTime": 18,
+    "carbs": 363,
+    "proteins": 13,
+    "calories": 485,
+    "instructions": "Jam is often used in place of jelly. Also known as a 'PB&J'."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 441,
+    "elabTime": 8,
+    "carbs": 391,
+    "proteins": 14,
+    "calories": 420,
+    "instructions": "Sliced avocado, meat, white cheese, onions and red sauce (salsa roja), on a fluffy sesame-seeded egg roll, originally from the city of Puebla."
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 528,
+    "elabTime": 7,
+    "carbs": 136,
+    "proteins": 4,
+    "calories": 736,
+    "instructions": "Pre-sliced, sometimes fried bologna sausage between slices of white bread, along with various condiments, such as ketchup, mustard, and mayonnaise."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 541,
+    "elabTime": 29,
+    "carbs": 168,
+    "proteins": 5,
+    "calories": 747,
+    "instructions": "Served on a bun, with chopped or sliced meat (pulled pork, beef or chicken typically), and sometimes topped with coleslaw"
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 194,
+    "elabTime": 21,
+    "carbs": 113,
+    "proteins": 11,
+    "calories": 538,
+    "instructions": "A cold meal originating in the United Kingdom, commonly served in pubs. Its core components are (cheddar) cheese, ploughman's pickle and bread. It is traditionally eaten with beer."
+  },
+  {
+    "name": "muffin",
+    "gramsPerRecipe": 479,
+    "elabTime": 21,
+    "carbs": 264,
+    "proteins": 6,
+    "calories": 432,
+    "instructions": "Round bread (bread bagnats) opened in two, rub each half with a clove of garlic, moisten with vinegar, olive oil, salt and pepper, the choice can be added green salad, tomatoes, hard boiled eggs, tuna, anchovies, cucumbers, fava beans, small fresh artichokes, green peppers, radishes, fresh spring onions, basil and black olives of Nice. Serve chilled."
+  },
+  {
+    "name": "crumpet",
+    "gramsPerRecipe": 353,
+    "elabTime": 35,
+    "carbs": 182,
+    "proteins": 8,
+    "calories": 591,
+    "instructions": "Round roll stuffed with sliced meat, sauce, and other ingredients, often made ahead and tightly wrapped to meld the filling with the bread."
+  },
+  {
+    "name": "muffin",
+    "gramsPerRecipe": 145,
+    "elabTime": 5,
+    "carbs": 388,
+    "proteins": 4,
+    "calories": 448,
+    "instructions": "Chickpea salad is a vegan sandwich filling that has a texture similar to tuna salad. Chickpea salad consists of mashed up chickpeas, vegenaise, onions, and other seasonings. Some versions also include tuna."
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 473,
+    "elabTime": 37,
+    "carbs": 154,
+    "proteins": 12,
+    "calories": 855,
+    "instructions": "Ground meat, usually beef, cooked with seasoned tomato sauce and served on a round bun."
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 255,
+    "elabTime": 25,
+    "carbs": 400,
+    "proteins": 12,
+    "calories": 759,
+    "instructions": "A sandwich prepared with chicken salad as a filling."
+  },
+  {
+    "name": "muffin",
+    "gramsPerRecipe": 170,
+    "elabTime": 12,
+    "carbs": 335,
+    "proteins": 4,
+    "calories": 455,
+    "instructions": "A sandwich prepared with chicken salad as a filling."
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 563,
+    "elabTime": 36,
+    "carbs": 254,
+    "proteins": 4,
+    "calories": 343,
+    "instructions": "Sliced white bread (or a large, flat bread roll) filled with chips usually sprinkled with salt and vinegar or tomato ketchup."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 187,
+    "elabTime": 10,
+    "carbs": 143,
+    "proteins": 14,
+    "calories": 327,
+    "instructions": "Consists of a spicy patty which is shallow-fried, onions, and chutney or raita in a hamburger or hot dog bun."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 520,
+    "elabTime": 14,
+    "carbs": 125,
+    "proteins": 7,
+    "calories": 816,
+    "instructions": "Selection of grilled meats topped with french fries, coleslaw, and tomato on Italian bread"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 149,
+    "elabTime": 12,
+    "carbs": 318,
+    "proteins": 5,
+    "calories": 514,
+    "instructions": "A slice of toast with ham, a maraschino cherry in the middle of a pineapple slice, and cheese, grilled from above, so the cheese starts to melt"
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 188,
+    "elabTime": 16,
+    "carbs": 261,
+    "proteins": 3,
+    "calories": 890,
+    "instructions": "On a piece of dark rye bread, a layer of leverpostej, topped with a slice of salt beef and a slice of meat aspic, topped with raw onion rings and garden cress."
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 523,
+    "elabTime": 21,
+    "carbs": 236,
+    "proteins": 10,
+    "calories": 465,
+    "instructions": "Sliced Danish canned ham with sliced scrabbled egg sheet in a halved-sweet bun"
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 446,
+    "elabTime": 14,
+    "carbs": 395,
+    "proteins": 8,
+    "calories": 723,
+    "instructions": "Lox on a bagel with cream cheese, thinly sliced onion, capers and possibly sliced tomato"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 596,
+    "elabTime": 34,
+    "carbs": 195,
+    "proteins": 5,
+    "calories": 770,
+    "instructions": "Lettuce and mayonnaise"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 512,
+    "elabTime": 9,
+    "carbs": 141,
+    "proteins": 8,
+    "calories": 497,
+    "instructions": "A typical food of Mexico and a kind of bread in Spain. In Mexico, Molletes are prepared with melted cheese and beans with other ingredients, such as salsa, ham or bacon."
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 141,
+    "elabTime": 12,
+    "carbs": 192,
+    "proteins": 7,
+    "calories": 851,
+    "instructions": "Vegemite is a dark brown Australian food paste made from used brewers' yeast extract, a by-product of beer manufacturing, various vegetables, wheat and spice additives. It is a spread for sandwiches, toast, crumpets and cracker biscuits as well as a filling for pastries."
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 194,
+    "elabTime": 24,
+    "carbs": 344,
+    "proteins": 12,
+    "calories": 692,
+    "instructions": "Vegan version of the BLT: Smoky baked tempeh, lettuce, tomato and avocado served sourdough toasted bread"
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 468,
+    "elabTime": 5,
+    "carbs": 232,
+    "proteins": 5,
+    "calories": 704,
+    "instructions": "Beef (usually thin cut steak) and cheese"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 267,
+    "elabTime": 39,
+    "carbs": 382,
+    "proteins": 7,
+    "calories": 321,
+    "instructions": "Corned beef, sauerkraut, Swiss cheese, topped with Russian or Thousand Island dressing, on rye bread, then grilled"
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 541,
+    "elabTime": 6,
+    "carbs": 207,
+    "proteins": 10,
+    "calories": 426,
+    "instructions": "Sliced white bread (or a large, flat bread roll) filled with chips usually sprinkled with salt and vinegar or tomato ketchup."
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 432,
+    "elabTime": 13,
+    "carbs": 153,
+    "proteins": 11,
+    "calories": 767,
+    "instructions": "Canned baked beans on white or brown bread. Sometimes butter is also used."
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 364,
+    "elabTime": 12,
+    "carbs": 247,
+    "proteins": 13,
+    "calories": 664,
+    "instructions": "A sandwich that consists of hamburger made with naan bread. Sometimes ham is used instead of beef."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 300,
+    "elabTime": 34,
+    "carbs": 111,
+    "proteins": 10,
+    "calories": 681,
+    "instructions": "Filet américain (steak tartare) with Worcestershire sauce, pickles, onions, peppers and martino sauce"
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 525,
+    "elabTime": 32,
+    "carbs": 140,
+    "proteins": 4,
+    "calories": 889,
+    "instructions": "Chocolate sprinkles or flakes usually served on buttered bread"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 356,
+    "elabTime": 9,
+    "carbs": 388,
+    "proteins": 10,
+    "calories": 672,
+    "instructions": "Thinly cut steak, grilled and served on a toasted bun, usually with tomato, avocado and mayonnaise"
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 385,
+    "elabTime": 32,
+    "carbs": 126,
+    "proteins": 7,
+    "calories": 785,
+    "instructions": "Thin slices of seasoned, juicy roast beef, often garnished with giardiniera or Italian sweet peppers, on a dense, long Italian-style roll"
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 133,
+    "elabTime": 32,
+    "carbs": 345,
+    "proteins": 6,
+    "calories": 789,
+    "instructions": "On a piece of dark rye bread, a layer of leverpostej, topped with a slice of salt beef and a slice of meat aspic, topped with raw onion rings and garden cress."
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 565,
+    "elabTime": 8,
+    "carbs": 166,
+    "proteins": 14,
+    "calories": 490,
+    "instructions": "Slices of cheese (typically Cheddar) and pickle (a sweet, vinegary chutney with the most popular brand being Branston), sandwiched between two slices of bread."
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 424,
+    "elabTime": 18,
+    "carbs": 211,
+    "proteins": 5,
+    "calories": 797,
+    "instructions": "Roast pork, ham, mustard, Swiss cheese, and dill pickles served on sweet bread."
+  },
+  {
+    "name": "rugbrød",
+    "gramsPerRecipe": 128,
+    "elabTime": 13,
+    "carbs": 314,
+    "proteins": 14,
+    "calories": 375,
+    "instructions": "Consists of a spicy patty which is shallow-fried, onions, and chutney or raita in a hamburger or hot dog bun."
+  },
+  {
+    "name": "crumpet",
+    "gramsPerRecipe": 295,
+    "elabTime": 15,
+    "carbs": 235,
+    "proteins": 9,
+    "calories": 309,
+    "instructions": "Birote bread (bolillo) sliced open on one side, and filled with chopped, fried pork, and sometimes chicken or shredded meat, beans and cheese, served submerged in a sauce made mostly of a dried chile de árbol."
+  },
+  {
+    "name": "pretzel",
+    "gramsPerRecipe": 314,
+    "elabTime": 6,
+    "carbs": 221,
+    "proteins": 9,
+    "calories": 900,
+    "instructions": "White bread with nonpareils (= 'sprinkles' (U.S.) or 'hundreds and thousands' (U.K.)) on a spread of butter. Often cut into squares or triangles."
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 559,
+    "elabTime": 22,
+    "carbs": 205,
+    "proteins": 7,
+    "calories": 883,
+    "instructions": "A sandwich made from cured and smoked brisket with yellow mustard, usually on rye bread."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 209,
+    "elabTime": 14,
+    "carbs": 308,
+    "proteins": 13,
+    "calories": 382,
+    "instructions": "Roast beef on a caraway kaiser roll"
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 121,
+    "elabTime": 9,
+    "carbs": 204,
+    "proteins": 7,
+    "calories": 803,
+    "instructions": "Usually grilled on white bread, containing a bratwurst sausage, onions, and a blend of tomato ketchup, mustard, and curry powder"
+  },
+  {
+    "name": "paratha",
+    "gramsPerRecipe": 546,
+    "elabTime": 14,
+    "carbs": 110,
+    "proteins": 13,
+    "calories": 807,
+    "instructions": "A hamburger or cheeseburger with a glazed doughnuts instead of a bun"
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 140,
+    "elabTime": 19,
+    "carbs": 346,
+    "proteins": 13,
+    "calories": 834,
+    "instructions": "Thinly sliced white bread with crusts removed, lightly buttered, containing a light spread of cream cheese or mayonnaise mixture, and often radishes, cucumber, asparagus, or watercress. Other fillings may be pimento cheese, ham with mustard, smoked salmon, fruit jam, curried chicken, and egg salad."
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 223,
+    "elabTime": 20,
+    "carbs": 201,
+    "proteins": 10,
+    "calories": 605,
+    "instructions": "Originated in New Orleans' Italian-American community, meats, cheeses, and olive salad on a round bun"
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 334,
+    "elabTime": 32,
+    "carbs": 276,
+    "proteins": 9,
+    "calories": 781,
+    "instructions": "Basic ingredients are eggs, chopped onions, sambal paste, salt and pepper cooked as an omelette with the bread added on top before it's fully cooked. Many variation includes canned sardines, chicken, beef, mutton. Garnished with mayo, chili sauce and cheese slice."
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 490,
+    "elabTime": 33,
+    "carbs": 117,
+    "proteins": 4,
+    "calories": 390,
+    "instructions": "Buttered bread, with jam (traditionally strawberry), normally eaten at lunchtime or as a quick snack, may also be eaten at breakfast or for high tea"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 123,
+    "elabTime": 24,
+    "carbs": 302,
+    "proteins": 4,
+    "calories": 356,
+    "instructions": "Birote bread (bolillo) sliced open on one side, and filled with chopped, fried pork, and sometimes chicken or shredded meat, beans and cheese, served submerged in a sauce made mostly of a dried chile de árbol."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 242,
+    "elabTime": 12,
+    "carbs": 181,
+    "proteins": 11,
+    "calories": 352,
+    "instructions": "Crisps and occasionally pickles on white bread"
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 513,
+    "elabTime": 13,
+    "carbs": 238,
+    "proteins": 12,
+    "calories": 536,
+    "instructions": "A halved baguette or other bread usually topped with mushrooms and cheese, ham or other meats, and vegetables"
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 201,
+    "elabTime": 14,
+    "carbs": 105,
+    "proteins": 5,
+    "calories": 663,
+    "instructions": "On a piece of dark rye bread, a layer of leverpostej, topped with a slice of salt beef and a slice of meat aspic, topped with raw onion rings and garden cress."
+  },
+  {
+    "name": "roti",
+    "gramsPerRecipe": 233,
+    "elabTime": 37,
+    "carbs": 293,
+    "proteins": 9,
+    "calories": 386,
+    "instructions": "An open-faced sandwich on rugbrød, with smoked herring, chives and a raw egg yolk"
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 425,
+    "elabTime": 10,
+    "carbs": 114,
+    "proteins": 6,
+    "calories": 603,
+    "instructions": "Buttered bread, with jam (traditionally strawberry), normally eaten at lunchtime or as a quick snack, may also be eaten at breakfast or for high tea"
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 153,
+    "elabTime": 16,
+    "carbs": 170,
+    "proteins": 12,
+    "calories": 506,
+    "instructions": "Form of barbecue in which pork is cooked using a slow cook method until the meat becomes tender enough that it can be \"pulled\", or easily broken into individual pieces"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 439,
+    "elabTime": 13,
+    "carbs": 220,
+    "proteins": 13,
+    "calories": 611,
+    "instructions": "Kielbasa sausage in a bun, covered with french fries, barbecue sauce (or hot sauce), and coleslaw"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 369,
+    "elabTime": 26,
+    "carbs": 146,
+    "proteins": 7,
+    "calories": 564,
+    "instructions": "A ground beef patty, often with vegetables, sauces and other meats, usually on a round bun."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 502,
+    "elabTime": 38,
+    "carbs": 186,
+    "proteins": 3,
+    "calories": 403,
+    "instructions": "Round roll stuffed with sliced meat, sauce, and other ingredients, often made ahead and tightly wrapped to meld the filling with the bread."
+  },
+  {
+    "name": "crumpet",
+    "gramsPerRecipe": 142,
+    "elabTime": 23,
+    "carbs": 179,
+    "proteins": 14,
+    "calories": 667,
+    "instructions": "Kielbasa sausage in a bun, covered with french fries, barbecue sauce (or hot sauce), and coleslaw"
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 146,
+    "elabTime": 11,
+    "carbs": 222,
+    "proteins": 5,
+    "calories": 475,
+    "instructions": "Minute and usually grilled, could be filled with anything. Some bars offer a variety of 200 different types of these sandwiches.[citation needed]"
+  },
+  {
+    "name": "soda bread",
+    "gramsPerRecipe": 488,
+    "elabTime": 10,
+    "carbs": 380,
+    "proteins": 4,
+    "calories": 667,
+    "instructions": "Thinly sliced churrasco-style steak, or lomito-style pork, with tomatoes, green beans and green chiles, served on a round roll"
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 464,
+    "elabTime": 18,
+    "carbs": 140,
+    "proteins": 3,
+    "calories": 666,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 209,
+    "elabTime": 6,
+    "carbs": 245,
+    "proteins": 8,
+    "calories": 517,
+    "instructions": "Filet mignon with mozzarella, tomatoes, mayonnaise, and commonly bacon, black or green olives, fried or hardboiled eggs and ham"
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 548,
+    "elabTime": 22,
+    "carbs": 370,
+    "proteins": 14,
+    "calories": 788,
+    "instructions": "Vanilla ice cream between thin biscuits, cookies or slices of cake, normally chocolate"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 319,
+    "elabTime": 26,
+    "carbs": 329,
+    "proteins": 10,
+    "calories": 623,
+    "instructions": "Although there are numerous variations, the main distinction is a combination of three meats, typically grilled, such as beef (usually churrasco steak or cube steak), roast pork (pernil), chicken, and ham. Condiments may include some combination of mustard, ketchup, and mayonnaise, often combined to create a “special” sauce. Popular toppings include thin crispy fried potato sticks or shoe string potatoes, thinly sliced cabbage, lettuce, onion, tomato, pickles, and Swiss cheese. The sandwich is often finished in a sandwich press until bread is toasted."
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 437,
+    "elabTime": 37,
+    "carbs": 143,
+    "proteins": 4,
+    "calories": 673,
+    "instructions": "Melted cheese, roast beef, tomato and pickled cucumber in a hollowed-out French roll"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 266,
+    "elabTime": 15,
+    "carbs": 367,
+    "proteins": 13,
+    "calories": 411,
+    "instructions": "A thick-sliced, toasted, open-faced sandwich, it usually contains hamburger patties or ham, but other meat, such as deep-fried pork tenderloin, grilled or fried chicken breast, and fried fish filets, can be used. The meat is topped with french fries and covered with a cheese sauce."
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 308,
+    "elabTime": 38,
+    "carbs": 206,
+    "proteins": 9,
+    "calories": 423,
+    "instructions": "Contains hot sopressata, capicola, and primadonna cheese, on a ciabatta roll, grilled, with balsamic vinegar, extra virgin olive oil, roasted red peppers, and sliced hot cherry peppers"
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 393,
+    "elabTime": 17,
+    "carbs": 266,
+    "proteins": 3,
+    "calories": 625,
+    "instructions": "Open-faced, buttered dark rye bread with cold cuts, pieces of meat or fish, cheese or spreads"
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 396,
+    "elabTime": 19,
+    "carbs": 226,
+    "proteins": 11,
+    "calories": 359,
+    "instructions": "Lettuce and mayonnaise"
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 504,
+    "elabTime": 14,
+    "carbs": 114,
+    "proteins": 11,
+    "calories": 555,
+    "instructions": "Marmite spread thinly with butter or margarine onto toast or bread"
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 570,
+    "elabTime": 40,
+    "carbs": 150,
+    "proteins": 5,
+    "calories": 645,
+    "instructions": "Thinly sliced roast beef on a baguette, served hot, usually au jus (with juice)"
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 368,
+    "elabTime": 25,
+    "carbs": 103,
+    "proteins": 7,
+    "calories": 389,
+    "instructions": "Sliced white bread (or a large, flat bread roll) filled with chips usually sprinkled with salt and vinegar or tomato ketchup."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 143,
+    "elabTime": 26,
+    "carbs": 194,
+    "proteins": 5,
+    "calories": 520,
+    "instructions": "Common in Iowa, consists of a mixture of unseasoned ground beef and sauteed onions, sometimes topped with pickles, ketchup and mustard, on a bun"
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 462,
+    "elabTime": 10,
+    "carbs": 282,
+    "proteins": 6,
+    "calories": 504,
+    "instructions": "Stewed pork, chopped finely, and stuffed in mo, a kind of flatbread"
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 359,
+    "elabTime": 27,
+    "carbs": 346,
+    "proteins": 8,
+    "calories": 690,
+    "instructions": "Sausages, may be pork, beef or vegetarian. Served with red sauce, brown sauce or no sauce at all."
+  },
+  {
+    "name": "pretzel",
+    "gramsPerRecipe": 495,
+    "elabTime": 35,
+    "carbs": 182,
+    "proteins": 4,
+    "calories": 421,
+    "instructions": "Corned beef with mustard, usually on rye bread"
+  },
+  {
+    "name": "roti",
+    "gramsPerRecipe": 512,
+    "elabTime": 39,
+    "carbs": 147,
+    "proteins": 13,
+    "calories": 293,
+    "instructions": "Half section of Italian or French bread with garlic butter, containing ham, provel or provolone cheese, topped with paprika, then toasted"
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 360,
+    "elabTime": 22,
+    "carbs": 305,
+    "proteins": 6,
+    "calories": 770,
+    "instructions": "Ground meat, usually beef, cooked with seasoned tomato sauce and served on a round bun."
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 167,
+    "elabTime": 25,
+    "carbs": 116,
+    "proteins": 9,
+    "calories": 554,
+    "instructions": "Canned baked beans on white or brown bread. Sometimes butter is also used."
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 491,
+    "elabTime": 15,
+    "carbs": 365,
+    "proteins": 5,
+    "calories": 492,
+    "instructions": "Form of barbecue in which pork is cooked using a slow cook method until the meat becomes tender enough that it can be \"pulled\", or easily broken into individual pieces"
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 547,
+    "elabTime": 7,
+    "carbs": 397,
+    "proteins": 7,
+    "calories": 294,
+    "instructions": "Birote bread (bolillo) sliced open on one side, and filled with chopped, fried pork, and sometimes chicken or shredded meat, beans and cheese, served submerged in a sauce made mostly of a dried chile de árbol."
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 433,
+    "elabTime": 21,
+    "carbs": 219,
+    "proteins": 9,
+    "calories": 831,
+    "instructions": "Flat bread with fillings of beef, spinach, tomatoes, cucumber, tahini sauce wrapped and grilled. Other toppings to can be added."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 344,
+    "elabTime": 25,
+    "carbs": 231,
+    "proteins": 13,
+    "calories": 656,
+    "instructions": "Vanilla ice cream between thin biscuits, cookies or slices of cake, normally chocolate"
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 505,
+    "elabTime": 6,
+    "carbs": 143,
+    "proteins": 9,
+    "calories": 764,
+    "instructions": "A French baguette with butter and ham. Also known as \"Parisien\", it is the most popular sandwich in France."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 301,
+    "elabTime": 12,
+    "carbs": 198,
+    "proteins": 14,
+    "calories": 851,
+    "instructions": "Thin slices of seasoned, juicy roast beef, often garnished with giardiniera or Italian sweet peppers, on a dense, long Italian-style roll"
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 557,
+    "elabTime": 6,
+    "carbs": 118,
+    "proteins": 14,
+    "calories": 347,
+    "instructions": "Kielbasa sausage in a bun, covered with french fries, barbecue sauce (or hot sauce), and coleslaw"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 567,
+    "elabTime": 29,
+    "carbs": 376,
+    "proteins": 10,
+    "calories": 981,
+    "instructions": "Marmite spread thinly with butter or margarine onto toast or bread"
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 140,
+    "elabTime": 14,
+    "carbs": 268,
+    "proteins": 8,
+    "calories": 464,
+    "instructions": "A bun filled with a mixture of (usually) loose meat, cabbage, and cheese. The fillings are baked inside the bread, similar to a kolache. Popular in the Midwestern United States, especially Nebraska."
+  },
+  {
+    "name": "matzoh",
+    "gramsPerRecipe": 408,
+    "elabTime": 9,
+    "carbs": 124,
+    "proteins": 10,
+    "calories": 764,
+    "instructions": "Open sandwich consisting of a sliced bun, topped with Mett (seasoned minced pork without bacon), frequently with a garnish of raw onion rings or diced raw onion"
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 123,
+    "elabTime": 6,
+    "carbs": 285,
+    "proteins": 6,
+    "calories": 930,
+    "instructions": "A cheeseburger with the cheese inside the meat patty rather than on top"
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 152,
+    "elabTime": 40,
+    "carbs": 215,
+    "proteins": 14,
+    "calories": 294,
+    "instructions": "Flat bread with fillings of beef, spinach, tomatoes, cucumber, tahini sauce wrapped and grilled. Other toppings to can be added."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 257,
+    "elabTime": 32,
+    "carbs": 288,
+    "proteins": 7,
+    "calories": 582,
+    "instructions": "Served on a bun, with chopped or sliced meat (pulled pork, beef or chicken typically), and sometimes topped with coleslaw"
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 556,
+    "elabTime": 18,
+    "carbs": 336,
+    "proteins": 3,
+    "calories": 696,
+    "instructions": "Not a sandwich, it refers to a set of toppings to put in a sandwich, refers to the colors of the Italian flag: red (tomato), white (mayonnaise) and green (avocado)"
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 592,
+    "elabTime": 15,
+    "carbs": 137,
+    "proteins": 10,
+    "calories": 295,
+    "instructions": "Contains hot sopressata, capicola, and primadonna cheese, on a ciabatta roll, grilled, with balsamic vinegar, extra virgin olive oil, roasted red peppers, and sliced hot cherry peppers"
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 442,
+    "elabTime": 26,
+    "carbs": 199,
+    "proteins": 8,
+    "calories": 366,
+    "instructions": "Sliced avocado, meat, white cheese, onions and red sauce (salsa roja), on a fluffy sesame-seeded egg roll, originally from the city of Puebla."
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 230,
+    "elabTime": 7,
+    "carbs": 370,
+    "proteins": 11,
+    "calories": 533,
+    "instructions": "Flat bread (often a tortilla) tightly wrapped around the sandwich filling with the ends tucked in to form a neat bundle, fillings can vary widely"
+  },
+  {
+    "name": "muffin",
+    "gramsPerRecipe": 451,
+    "elabTime": 5,
+    "carbs": 398,
+    "proteins": 6,
+    "calories": 753,
+    "instructions": "Vanilla ice cream between thin biscuits, cookies or slices of cake, normally chocolate"
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 414,
+    "elabTime": 26,
+    "carbs": 376,
+    "proteins": 9,
+    "calories": 701,
+    "instructions": "Filet mignon with mozzarella, tomatoes, mayonnaise, and commonly bacon, black or green olives, fried or hardboiled eggs and ham"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 196,
+    "elabTime": 10,
+    "carbs": 382,
+    "proteins": 11,
+    "calories": 775,
+    "instructions": "An open-faced sandwich on rugbrød, with smoked herring, chives and a raw egg yolk"
+  },
+  {
+    "name": "lavash",
+    "gramsPerRecipe": 424,
+    "elabTime": 36,
+    "carbs": 231,
+    "proteins": 7,
+    "calories": 322,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 183,
+    "elabTime": 24,
+    "carbs": 223,
+    "proteins": 14,
+    "calories": 219,
+    "instructions": "Breaded, deep-fried pork cutlet (tonkatsu)"
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 361,
+    "elabTime": 33,
+    "carbs": 261,
+    "proteins": 6,
+    "calories": 856,
+    "instructions": "Ham, roasted pork, Swiss cheese, pickles, mustard, and sometimes Genoa salami on Cuban bread, usually pressed and warmed in a plancha"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 205,
+    "elabTime": 29,
+    "carbs": 229,
+    "proteins": 12,
+    "calories": 978,
+    "instructions": "The Pork Tenderloin sandwich features a thin, tenderized deep fried pork loin,usually served on a bun."
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 503,
+    "elabTime": 38,
+    "carbs": 267,
+    "proteins": 4,
+    "calories": 973,
+    "instructions": "Although there are numerous variations, the main distinction is a combination of three meats, typically grilled, such as beef (usually churrasco steak or cube steak), roast pork (pernil), chicken, and ham. Condiments may include some combination of mustard, ketchup, and mayonnaise, often combined to create a “special” sauce. Popular toppings include thin crispy fried potato sticks or shoe string potatoes, thinly sliced cabbage, lettuce, onion, tomato, pickles, and Swiss cheese. The sandwich is often finished in a sandwich press until bread is toasted."
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 487,
+    "elabTime": 6,
+    "carbs": 116,
+    "proteins": 10,
+    "calories": 403,
+    "instructions": "Thinly sliced churrasco-style steak, or lomito-style pork, with tomatoes, green beans and green chiles, served on a round roll"
+  },
+  {
+    "name": "soda bread",
+    "gramsPerRecipe": 577,
+    "elabTime": 35,
+    "carbs": 198,
+    "proteins": 4,
+    "calories": 355,
+    "instructions": "Kielbasa sausage in a bun, covered with french fries, barbecue sauce (or hot sauce), and coleslaw"
+  },
+  {
+    "name": "lavash",
+    "gramsPerRecipe": 296,
+    "elabTime": 38,
+    "carbs": 382,
+    "proteins": 13,
+    "calories": 691,
+    "instructions": "Doner kebab is meat cooked on a vertical spit, normally veal or beef but also may be a mixture of these with lamb, and sometimes chicken that may be served wrapped in a flatbread such as lavash or pita or as a sandwich."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 287,
+    "elabTime": 23,
+    "carbs": 154,
+    "proteins": 11,
+    "calories": 922,
+    "instructions": "Thinly sliced steak and melted cheese in a long roll, also known as a Philadelphia or Philly cheesesteak."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 518,
+    "elabTime": 31,
+    "carbs": 323,
+    "proteins": 13,
+    "calories": 566,
+    "instructions": "Especially noted from Beigel Bake in Brick Lane, east London."
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 408,
+    "elabTime": 18,
+    "carbs": 187,
+    "proteins": 14,
+    "calories": 321,
+    "instructions": "Coarsely shredded or sliced chicken, sandwiched between two pieces of sliced bread, and completely covered with gravy."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 232,
+    "elabTime": 28,
+    "carbs": 272,
+    "proteins": 3,
+    "calories": 658,
+    "instructions": "Named for its ingredients: bacon, lettuce and tomato"
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 275,
+    "elabTime": 27,
+    "carbs": 277,
+    "proteins": 5,
+    "calories": 883,
+    "instructions": "A sandwich that consists of hamburger made with naan bread. Sometimes ham is used instead of beef."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 349,
+    "elabTime": 11,
+    "carbs": 393,
+    "proteins": 4,
+    "calories": 819,
+    "instructions": "A halved baguette or other bread usually topped with mushrooms and cheese, ham or other meats, and vegetables"
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 206,
+    "elabTime": 12,
+    "carbs": 195,
+    "proteins": 4,
+    "calories": 655,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 326,
+    "elabTime": 37,
+    "carbs": 297,
+    "proteins": 14,
+    "calories": 653,
+    "instructions": "French fries and fried meat with sauce on a demi-baguette."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 160,
+    "elabTime": 28,
+    "carbs": 200,
+    "proteins": 7,
+    "calories": 783,
+    "instructions": "Usually made with tuna salad and includes ingredients such as mayonnaise and celery. Other common variations include the tuna boat and tuna melt."
+  },
+  {
+    "name": "casalinga",
+    "gramsPerRecipe": 214,
+    "elabTime": 24,
+    "carbs": 355,
+    "proteins": 6,
+    "calories": 969,
+    "instructions": "A hot melted cheese sauce, poured over slices (or other pieces) of toasted bread. Or the hot cheese sauce may be served in a bowl accompanied by the toast."
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 441,
+    "elabTime": 16,
+    "carbs": 176,
+    "proteins": 6,
+    "calories": 286,
+    "instructions": "A stuffed and fried bread roll (sometimes called stuffed pistolettes) in the Cajun areas around Lafayette. Also refers to a type of submarine shaped bread about half the size of a baguette that is popular in New Orleans for Vietnamese bánh mì and other sandwiches."
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 207,
+    "elabTime": 33,
+    "carbs": 213,
+    "proteins": 12,
+    "calories": 211,
+    "instructions": "Tofu with veggies. Typically broiled or baked tofu."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 436,
+    "elabTime": 19,
+    "carbs": 271,
+    "proteins": 8,
+    "calories": 361,
+    "instructions": "Consists of a hamburger patty, pieces of sautéed or grilled onion and Cheddar or Swiss cheese between two slices of bread"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 599,
+    "elabTime": 39,
+    "carbs": 255,
+    "proteins": 13,
+    "calories": 523,
+    "instructions": "A hot dog bun stuffed with fried noodles, frequently topped with pickles, such as beni shōga, with mayonnaise"
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 513,
+    "elabTime": 6,
+    "carbs": 264,
+    "proteins": 10,
+    "calories": 561,
+    "instructions": "A breakfast sandwich, usually fried or scrambled eggs"
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 321,
+    "elabTime": 40,
+    "carbs": 101,
+    "proteins": 10,
+    "calories": 539,
+    "instructions": "\"Pita gyro\" or \"psomaki gyro\", depending on the type of bread used, includes meat roasted on a vertical spit, with tomato, raw, often red onion and optional yogurt sauce, wrapped in pita or sandwich bread."
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 275,
+    "elabTime": 27,
+    "carbs": 362,
+    "proteins": 8,
+    "calories": 372,
+    "instructions": "Canned baked beans on white or brown bread. Sometimes butter is also used."
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 318,
+    "elabTime": 18,
+    "carbs": 166,
+    "proteins": 12,
+    "calories": 624,
+    "instructions": "Sausages, may be pork, beef or vegetarian. Served with red sauce, brown sauce or no sauce at all."
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 457,
+    "elabTime": 23,
+    "carbs": 287,
+    "proteins": 9,
+    "calories": 595,
+    "instructions": "Usually grilled on white bread, containing a bratwurst sausage, onions, and a blend of tomato ketchup, mustard, and curry powder"
+  },
+  {
+    "name": "rugbrød",
+    "gramsPerRecipe": 316,
+    "elabTime": 30,
+    "carbs": 311,
+    "proteins": 8,
+    "calories": 940,
+    "instructions": "Ham and cheese, usually mantecoso, which is similar to farmer cheese"
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 294,
+    "elabTime": 16,
+    "carbs": 319,
+    "proteins": 10,
+    "calories": 580,
+    "instructions": "Usually made with tuna salad and includes ingredients such as mayonnaise and celery. Other common variations include the tuna boat and tuna melt."
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 223,
+    "elabTime": 28,
+    "carbs": 372,
+    "proteins": 4,
+    "calories": 623,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "pretzel",
+    "gramsPerRecipe": 474,
+    "elabTime": 23,
+    "carbs": 138,
+    "proteins": 10,
+    "calories": 496,
+    "instructions": "Chocolate sprinkles or flakes usually served on buttered bread"
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 159,
+    "elabTime": 8,
+    "carbs": 259,
+    "proteins": 12,
+    "calories": 808,
+    "instructions": "Although there are numerous variations, the main distinction is a combination of three meats, typically grilled, such as beef (usually churrasco steak or cube steak), roast pork (pernil), chicken, and ham. Condiments may include some combination of mustard, ketchup, and mayonnaise, often combined to create a “special” sauce. Popular toppings include thin crispy fried potato sticks or shoe string potatoes, thinly sliced cabbage, lettuce, onion, tomato, pickles, and Swiss cheese. The sandwich is often finished in a sandwich press until bread is toasted."
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 590,
+    "elabTime": 6,
+    "carbs": 365,
+    "proteins": 14,
+    "calories": 702,
+    "instructions": "A hot dog wrapped in a beef patty, deep-fried, then covered with chili, a few french fries, and a fried egg"
+  },
+  {
+    "name": "soda bread",
+    "gramsPerRecipe": 335,
+    "elabTime": 31,
+    "carbs": 335,
+    "proteins": 11,
+    "calories": 659,
+    "instructions": "Beef (usually thin cut steak) and cheese"
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 331,
+    "elabTime": 17,
+    "carbs": 184,
+    "proteins": 8,
+    "calories": 468,
+    "instructions": "An open-faced sandwich on rugbrød, with smoked herring, chives and a raw egg yolk"
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 173,
+    "elabTime": 32,
+    "carbs": 361,
+    "proteins": 9,
+    "calories": 833,
+    "instructions": "A simple Argentine sandwich, traditionally filled with cheese, cured meat, tomato and mayonnaise. The term pebete actually refers to the bread used for the sandwich; a soft oval bun with a spongy inside, and a thin toasted crust."
+  },
+  {
+    "name": "matzoh",
+    "gramsPerRecipe": 423,
+    "elabTime": 19,
+    "carbs": 211,
+    "proteins": 3,
+    "calories": 557,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 210,
+    "elabTime": 22,
+    "carbs": 130,
+    "proteins": 14,
+    "calories": 928,
+    "instructions": "Chocolate sprinkles or flakes usually served on buttered bread"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 125,
+    "elabTime": 37,
+    "carbs": 377,
+    "proteins": 8,
+    "calories": 899,
+    "instructions": "Typically a scrambled or fried egg, cheese, and a sausage patty or other breakfast meat served on a biscuit or English muffin"
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 228,
+    "elabTime": 27,
+    "carbs": 309,
+    "proteins": 7,
+    "calories": 600,
+    "instructions": "Ham, roasted pork, Swiss cheese, pickles, mustard, and sometimes Genoa salami on Cuban bread, usually pressed and warmed in a plancha"
+  },
+  {
+    "name": "matzoh",
+    "gramsPerRecipe": 227,
+    "elabTime": 31,
+    "carbs": 226,
+    "proteins": 13,
+    "calories": 258,
+    "instructions": "Two thin slices of crustless, lightly buttered white bread, containing paper-thin slices of peeled cucumber"
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 258,
+    "elabTime": 32,
+    "carbs": 398,
+    "proteins": 14,
+    "calories": 890,
+    "instructions": "Chocolate sprinkles or flakes usually served on buttered bread"
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 262,
+    "elabTime": 18,
+    "carbs": 211,
+    "proteins": 9,
+    "calories": 862,
+    "instructions": "A hot dog wrapped in a beef patty, deep-fried, then covered with chili, a few french fries, and a fried egg"
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 135,
+    "elabTime": 20,
+    "carbs": 150,
+    "proteins": 3,
+    "calories": 544,
+    "instructions": "Melted cheese, roast beef, tomato and pickled cucumber in a hollowed-out French roll"
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 188,
+    "elabTime": 20,
+    "carbs": 280,
+    "proteins": 12,
+    "calories": 285,
+    "instructions": "A common sandwich prepared with ham and sliced cheese. Additional ingredients may include lettuce, tomato, mayonnaise and other ingredients."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 590,
+    "elabTime": 7,
+    "carbs": 166,
+    "proteins": 10,
+    "calories": 274,
+    "instructions": "Filling is typically meat, but can contain a wide range of foods, including sardines, tofu, pâté, or eggs. Served on an airy baguette with pickled carrots, cilantro and peppers."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 531,
+    "elabTime": 15,
+    "carbs": 192,
+    "proteins": 7,
+    "calories": 807,
+    "instructions": "A halved baguette or other bread usually topped with mushrooms and cheese, ham or other meats, and vegetables"
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 371,
+    "elabTime": 6,
+    "carbs": 347,
+    "proteins": 9,
+    "calories": 880,
+    "instructions": "A simple Argentine sandwich, traditionally filled with cheese, cured meat, tomato and mayonnaise. The term pebete actually refers to the bread used for the sandwich; a soft oval bun with a spongy inside, and a thin toasted crust."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 208,
+    "elabTime": 6,
+    "carbs": 340,
+    "proteins": 3,
+    "calories": 690,
+    "instructions": "A dated reference to the poor quality of catering on the now-defunct British Rail, refers to any poor-quality sandwich, often stale."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 512,
+    "elabTime": 27,
+    "carbs": 375,
+    "proteins": 11,
+    "calories": 768,
+    "instructions": "Type of sandwich that may be ordered at a deli, choices include type of bread (toasted or untoasted,) type of meat (cold cut), type of sliced cheese, vegetable fillings (lettuce, tomato, onion, etc.) and condiments"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 498,
+    "elabTime": 24,
+    "carbs": 357,
+    "proteins": 7,
+    "calories": 782,
+    "instructions": "A simple Argentine sandwich, traditionally filled with cheese, cured meat, tomato and mayonnaise. The term pebete actually refers to the bread used for the sandwich; a soft oval bun with a spongy inside, and a thin toasted crust."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 187,
+    "elabTime": 22,
+    "carbs": 359,
+    "proteins": 13,
+    "calories": 561,
+    "instructions": "A stuffed and fried bread roll (sometimes called stuffed pistolettes) in the Cajun areas around Lafayette. Also refers to a type of submarine shaped bread about half the size of a baguette that is popular in New Orleans for Vietnamese bánh mì and other sandwiches."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 280,
+    "elabTime": 24,
+    "carbs": 255,
+    "proteins": 11,
+    "calories": 516,
+    "instructions": "Triangular white bread with the crusts removed, with fillings such as tuna and olive and prosciutto, served in Italian bars throughout the day"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 382,
+    "elabTime": 25,
+    "carbs": 149,
+    "proteins": 13,
+    "calories": 591,
+    "instructions": "Usually made with tuna salad and includes ingredients such as mayonnaise and celery. Other common variations include the tuna boat and tuna melt."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 448,
+    "elabTime": 20,
+    "carbs": 122,
+    "proteins": 5,
+    "calories": 528,
+    "instructions": "Especially noted from Beigel Bake in Brick Lane, east London."
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 381,
+    "elabTime": 11,
+    "carbs": 335,
+    "proteins": 9,
+    "calories": 675,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 392,
+    "elabTime": 5,
+    "carbs": 254,
+    "proteins": 3,
+    "calories": 895,
+    "instructions": "Not a sandwich, it refers to a set of toppings to put in a sandwich, refers to the colors of the Italian flag: red (tomato), white (mayonnaise) and green (avocado)"
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 595,
+    "elabTime": 37,
+    "carbs": 293,
+    "proteins": 6,
+    "calories": 457,
+    "instructions": "Chopped or shredded, savory donkey meat in a bun, sold in Baoding, Hebei Province as street food, and also in high-end restaurants"
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 456,
+    "elabTime": 12,
+    "carbs": 371,
+    "proteins": 13,
+    "calories": 987,
+    "instructions": "Round roll stuffed with sliced meat, sauce, and other ingredients, often made ahead and tightly wrapped to meld the filling with the bread."
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 374,
+    "elabTime": 16,
+    "carbs": 374,
+    "proteins": 10,
+    "calories": 325,
+    "instructions": "Multiple layers of white or light rye bread containing creamy fillings, such as egg and mayonnaise, liver paté, olives, shrimp, ham, various cold cuts, caviar, tomato, cucumber, cheese and smoked salmon"
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 422,
+    "elabTime": 17,
+    "carbs": 135,
+    "proteins": 13,
+    "calories": 428,
+    "instructions": "Ground meat, usually beef, cooked with seasoned tomato sauce and served on a round bun."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 289,
+    "elabTime": 20,
+    "carbs": 350,
+    "proteins": 9,
+    "calories": 486,
+    "instructions": "A hamburger or cheeseburger with a glazed doughnuts instead of a bun"
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 215,
+    "elabTime": 12,
+    "carbs": 149,
+    "proteins": 6,
+    "calories": 601,
+    "instructions": "Canned baked beans on white or brown bread. Sometimes butter is also used."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 216,
+    "elabTime": 19,
+    "carbs": 330,
+    "proteins": 11,
+    "calories": 382,
+    "instructions": "Grilled chorizo, usually served on a crusty roll with salsa-type condiments, such as pebre, salsa criolla or chimichurri. Morcipán is a variety of this using black pudding or blood sausage."
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 154,
+    "elabTime": 22,
+    "carbs": 147,
+    "proteins": 9,
+    "calories": 329,
+    "instructions": "Lobster meat tossed with either mayonnaise (\"cold\") or drawn butter (\"hot\") stuffed into a slit opening at the top of a grilled bread roll or hot dog bun."
+  },
+  {
+    "name": "epi",
+    "gramsPerRecipe": 484,
+    "elabTime": 24,
+    "carbs": 206,
+    "proteins": 12,
+    "calories": 612,
+    "instructions": "Thinly sliced white bread with crusts removed, lightly buttered, containing a light spread of cream cheese or mayonnaise mixture, and often radishes, cucumber, asparagus, or watercress. Other fillings may be pimento cheese, ham with mustard, smoked salmon, fruit jam, curried chicken, and egg salad."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 426,
+    "elabTime": 35,
+    "carbs": 356,
+    "proteins": 9,
+    "calories": 678,
+    "instructions": "A thick-sliced, toasted, open-faced sandwich, it usually contains hamburger patties or ham, but other meat, such as deep-fried pork tenderloin, grilled or fried chicken breast, and fried fish filets, can be used. The meat is topped with french fries and covered with a cheese sauce."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 276,
+    "elabTime": 24,
+    "carbs": 281,
+    "proteins": 13,
+    "calories": 578,
+    "instructions": "Roast beef on a caraway kaiser roll"
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 496,
+    "elabTime": 38,
+    "carbs": 143,
+    "proteins": 7,
+    "calories": 247,
+    "instructions": "Chocolate sprinkles or flakes usually served on buttered bread"
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 411,
+    "elabTime": 6,
+    "carbs": 218,
+    "proteins": 9,
+    "calories": 576,
+    "instructions": "A hot dog wrapped in a beef patty, deep-fried, then covered with chili, a few french fries, and a fried egg"
+  },
+  {
+    "name": "matzoh",
+    "gramsPerRecipe": 600,
+    "elabTime": 14,
+    "carbs": 132,
+    "proteins": 4,
+    "calories": 462,
+    "instructions": "Two flat fried bara (bread), containing curried chickpeas or garbanzo beans"
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 317,
+    "elabTime": 19,
+    "carbs": 198,
+    "proteins": 13,
+    "calories": 710,
+    "instructions": "Open sandwich consisting of a sliced bun, topped with Mett (seasoned minced pork without bacon), frequently with a garnish of raw onion rings or diced raw onion"
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 578,
+    "elabTime": 21,
+    "carbs": 366,
+    "proteins": 6,
+    "calories": 824,
+    "instructions": "Open sandwich consisting of a sliced bun, topped with Mett (seasoned minced pork without bacon), frequently with a garnish of raw onion rings or diced raw onion"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 578,
+    "elabTime": 39,
+    "carbs": 400,
+    "proteins": 9,
+    "calories": 771,
+    "instructions": "A grilled ham and cheese (typically Emmental or Gruyère) sandwich, sometimes coated in a mornay or béchamel sauce"
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 540,
+    "elabTime": 19,
+    "carbs": 167,
+    "proteins": 5,
+    "calories": 311,
+    "instructions": "Made with single-, double- or triple-layered, buttered, thin white bread with crust removed, toasted or untoasted, contains thinly sliced meat and may include ham, eggs, cheese, tomatoes, green peppers, lettuce, olives, and sometimes other vegetables, even asparagus."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 154,
+    "elabTime": 55,
+    "carbs": 352,
+    "proteins": 6,
+    "calories": 297,
+    "instructions": "They are typically prepared with buttered rye bread, Limburger cheese, sliced onion and mustard. Pictured is Limburger cheese and bread."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 549,
+    "elabTime": 41,
+    "carbs": 369,
+    "proteins": 3,
+    "calories": 300,
+    "instructions": "Beef (usually thin cut steak) and cheese"
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 239,
+    "elabTime": 19,
+    "carbs": 128,
+    "proteins": 8,
+    "calories": 756,
+    "instructions": "Ham and cheese, usually mantecoso, which is similar to farmer cheese"
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 339,
+    "elabTime": 41,
+    "carbs": 295,
+    "proteins": 5,
+    "calories": 423,
+    "instructions": "Half section of Italian or French bread with garlic butter, containing ham, provel or provolone cheese, topped with paprika, then toasted"
+  },
+  {
+    "name": "paratha",
+    "gramsPerRecipe": 356,
+    "elabTime": 49,
+    "carbs": 374,
+    "proteins": 3,
+    "calories": 813,
+    "instructions": "A generic sandwich containing a filling, and a layer of cheese, grilled or fried until the cheese is melted"
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 244,
+    "elabTime": 39,
+    "carbs": 224,
+    "proteins": 9,
+    "calories": 427,
+    "instructions": "Consists of a single warmed, hollowed-out loaf of bread filled with one jar of creamy peanut butter, one jar of grape jelly, and a pound of bacon. In 1976, Elvis Presley and some of his friends flew to Colorado to consume them."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 402,
+    "elabTime": 41,
+    "carbs": 182,
+    "proteins": 4,
+    "calories": 564,
+    "instructions": "Meatballs in marinara sauce, with melted Parmesan or provolone cheese, on a long bun or section of Italian loaf. Might include Italian-style accompaniments such as bell peppers, basil, or Italian-dressed lettuce"
+  },
+  {
+    "name": "pretzel",
+    "gramsPerRecipe": 495,
+    "elabTime": 61,
+    "carbs": 192,
+    "proteins": 6,
+    "calories": 377,
+    "instructions": "Vegan version of the BLT: Smoky baked tempeh, lettuce, tomato and avocado served sourdough toasted bread"
+  },
+  {
+    "name": "fruit bread",
+    "gramsPerRecipe": 465,
+    "elabTime": 68,
+    "carbs": 106,
+    "proteins": 14,
+    "calories": 314,
+    "instructions": "A patty dish popular in the Balkan region of Southeastern Europe, a sandwich utilizes the Pljeskavica patty and bread."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 554,
+    "elabTime": 61,
+    "carbs": 354,
+    "proteins": 7,
+    "calories": 502,
+    "instructions": "A cooked sausage, traditionally grilled or steamed and served in a sliced bun as a sandwich."
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 318,
+    "elabTime": 52,
+    "carbs": 336,
+    "proteins": 9,
+    "calories": 771,
+    "instructions": "A tamale inserted in a Mexican bread, bolillo, easy to find in Mexico City streets in the morning, also called torta de tamal"
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 228,
+    "elabTime": 34,
+    "carbs": 222,
+    "proteins": 9,
+    "calories": 575,
+    "instructions": "Basic ingredients are eggs, chopped onions, sambal paste, salt and pepper cooked as an omelette with the bread added on top before it's fully cooked. Many variation includes canned sardines, chicken, beef, mutton. Garnished with mayo, chili sauce and cheese slice."
+  },
+  {
+    "name": "epi",
+    "gramsPerRecipe": 413,
+    "elabTime": 33,
+    "carbs": 161,
+    "proteins": 8,
+    "calories": 723,
+    "instructions": "Prepared with steak that has been broiled, fried, grilled, barbecued or seared using steel grates or gridirons then served on bread or a roll. Steak sandwiches may include toppings such as cheese, onions, mushrooms, bell peppers, hot peppers, tomatoes, and in some instances fried eggs, cole slaw, and french fries."
+  },
+  {
+    "name": "paratha",
+    "gramsPerRecipe": 401,
+    "elabTime": 64,
+    "carbs": 185,
+    "proteins": 12,
+    "calories": 422,
+    "instructions": "Chocolate sprinkles or flakes usually served on buttered bread"
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 156,
+    "elabTime": 28,
+    "carbs": 328,
+    "proteins": 5,
+    "calories": 251,
+    "instructions": "Lobster meat tossed with either mayonnaise (\"cold\") or drawn butter (\"hot\") stuffed into a slit opening at the top of a grilled bread roll or hot dog bun."
+  },
+  {
+    "name": "rugbrød",
+    "gramsPerRecipe": 161,
+    "elabTime": 55,
+    "carbs": 245,
+    "proteins": 8,
+    "calories": 490,
+    "instructions": "A tamale inserted in a Mexican bread, bolillo, easy to find in Mexico City streets in the morning, also called torta de tamal"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 368,
+    "elabTime": 58,
+    "carbs": 237,
+    "proteins": 11,
+    "calories": 847,
+    "instructions": "Kielbasa sausage in a bun, covered with french fries, barbecue sauce (or hot sauce), and coleslaw"
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 299,
+    "elabTime": 63,
+    "carbs": 301,
+    "proteins": 8,
+    "calories": 472,
+    "instructions": "Filet américain (steak tartare) with Worcestershire sauce, pickles, onions, peppers and martino sauce"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 517,
+    "elabTime": 34,
+    "carbs": 257,
+    "proteins": 8,
+    "calories": 314,
+    "instructions": "Pre-sliced, sometimes fried bologna sausage between slices of white bread, along with various condiments, such as ketchup, mustard, and mayonnaise."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 236,
+    "elabTime": 61,
+    "carbs": 392,
+    "proteins": 6,
+    "calories": 384,
+    "instructions": "Filling is typically meat, but can contain a wide range of foods, including sardines, tofu, pâté, or eggs. Served on an airy baguette with pickled carrots, cilantro and peppers."
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 352,
+    "elabTime": 52,
+    "carbs": 107,
+    "proteins": 11,
+    "calories": 604,
+    "instructions": "A cheeseburger with the cheese inside the meat patty rather than on top"
+  },
+  {
+    "name": "soda bread",
+    "gramsPerRecipe": 406,
+    "elabTime": 28,
+    "carbs": 120,
+    "proteins": 14,
+    "calories": 258,
+    "instructions": "Peanut butter, banana, and bacon inside of two slices of bread"
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 204,
+    "elabTime": 25,
+    "carbs": 398,
+    "proteins": 4,
+    "calories": 754,
+    "instructions": "Slices of cheese (typically Cheddar) and pickle (a sweet, vinegary chutney with the most popular brand being Branston), sandwiched between two slices of bread."
+  },
+  {
+    "name": "pretzel",
+    "gramsPerRecipe": 386,
+    "elabTime": 23,
+    "carbs": 156,
+    "proteins": 4,
+    "calories": 962,
+    "instructions": "A stuffed and fried bread roll (sometimes called stuffed pistolettes) in the Cajun areas around Lafayette. Also refers to a type of submarine shaped bread about half the size of a baguette that is popular in New Orleans for Vietnamese bánh mì and other sandwiches."
+  },
+  {
+    "name": "paratha",
+    "gramsPerRecipe": 278,
+    "elabTime": 46,
+    "carbs": 208,
+    "proteins": 11,
+    "calories": 621,
+    "instructions": "Two flat fried bara (bread), containing curried chickpeas or garbanzo beans"
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 565,
+    "elabTime": 62,
+    "carbs": 352,
+    "proteins": 9,
+    "calories": 781,
+    "instructions": "Thinly sliced white bread with crusts removed, lightly buttered, containing a light spread of cream cheese or mayonnaise mixture, and often radishes, cucumber, asparagus, or watercress. Other fillings may be pimento cheese, ham with mustard, smoked salmon, fruit jam, curried chicken, and egg salad."
+  },
+  {
+    "name": "lavash",
+    "gramsPerRecipe": 505,
+    "elabTime": 63,
+    "carbs": 205,
+    "proteins": 11,
+    "calories": 818,
+    "instructions": "A simple Argentine sandwich, traditionally filled with cheese, cured meat, tomato and mayonnaise. The term pebete actually refers to the bread used for the sandwich; a soft oval bun with a spongy inside, and a thin toasted crust."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 559,
+    "elabTime": 60,
+    "carbs": 290,
+    "proteins": 6,
+    "calories": 493,
+    "instructions": "Thinly sliced white bread with crusts removed, lightly buttered, containing a light spread of cream cheese or mayonnaise mixture, and often radishes, cucumber, asparagus, or watercress. Other fillings may be pimento cheese, ham with mustard, smoked salmon, fruit jam, curried chicken, and egg salad."
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 382,
+    "elabTime": 27,
+    "carbs": 349,
+    "proteins": 5,
+    "calories": 387,
+    "instructions": "Ham and turkey topped with broiled cheese. Sometimes includes bacon and tomato."
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 497,
+    "elabTime": 69,
+    "carbs": 392,
+    "proteins": 12,
+    "calories": 881,
+    "instructions": "A triple-decker sandwich made with sliced turkey or chicken, bacon, tomato and lettuce, usually contains mayonnaise"
+  },
+  {
+    "name": "naan",
+    "gramsPerRecipe": 345,
+    "elabTime": 21,
+    "carbs": 251,
+    "proteins": 8,
+    "calories": 338,
+    "instructions": "Round roll stuffed with sliced meat, sauce, and other ingredients, often made ahead and tightly wrapped to meld the filling with the bread."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 498,
+    "elabTime": 31,
+    "carbs": 246,
+    "proteins": 13,
+    "calories": 564,
+    "instructions": "Lettuce and mayonnaise"
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 395,
+    "elabTime": 26,
+    "carbs": 203,
+    "proteins": 3,
+    "calories": 688,
+    "instructions": "Vegan version of the BLT: Smoky baked tempeh, lettuce, tomato and avocado served sourdough toasted bread"
+  },
+  {
+    "name": "casalinga",
+    "gramsPerRecipe": 427,
+    "elabTime": 19,
+    "carbs": 143,
+    "proteins": 14,
+    "calories": 531,
+    "instructions": "Made of ground beef, tomato sauces, spices and many onions and peppers. It is a popular food served at local family gatherings and fund raising benefits, usually made in large quantities."
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 243,
+    "elabTime": 28,
+    "carbs": 183,
+    "proteins": 11,
+    "calories": 401,
+    "instructions": "Consists of a hamburger patty, pieces of sautéed or grilled onion and Cheddar or Swiss cheese between two slices of bread"
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 350,
+    "elabTime": 62,
+    "carbs": 182,
+    "proteins": 4,
+    "calories": 722,
+    "instructions": "A halved baguette or other bread usually topped with mushrooms and cheese, ham or other meats, and vegetables"
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 291,
+    "elabTime": 40,
+    "carbs": 264,
+    "proteins": 3,
+    "calories": 593,
+    "instructions": "Named for its ingredients: bacon, lettuce and tomato"
+  },
+  {
+    "name": "casalinga",
+    "gramsPerRecipe": 159,
+    "elabTime": 64,
+    "carbs": 388,
+    "proteins": 5,
+    "calories": 633,
+    "instructions": "Open-faced, buttered dark rye bread with cold cuts, pieces of meat or fish, cheese or spreads"
+  },
+  {
+    "name": "rugbrød",
+    "gramsPerRecipe": 600,
+    "elabTime": 26,
+    "carbs": 398,
+    "proteins": 6,
+    "calories": 326,
+    "instructions": "Kielbasa sausage in a bun, covered with french fries, barbecue sauce (or hot sauce), and coleslaw"
+  },
+  {
+    "name": "lavash",
+    "gramsPerRecipe": 550,
+    "elabTime": 55,
+    "carbs": 202,
+    "proteins": 7,
+    "calories": 251,
+    "instructions": "A half-inch slice of thick sausage, usually with diced red or sweet onion, sliced pickles, ketchup, mustard, and sometimes mayonnaise, on white bread"
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 479,
+    "elabTime": 32,
+    "carbs": 345,
+    "proteins": 11,
+    "calories": 879,
+    "instructions": "Sliced white bread (or a large, flat bread roll) filled with chips usually sprinkled with salt and vinegar or tomato ketchup."
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 454,
+    "elabTime": 33,
+    "carbs": 353,
+    "proteins": 9,
+    "calories": 782,
+    "instructions": "Sautéed beef tongue and scrambled eggs, served open-faced ada pav"
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 165,
+    "elabTime": 56,
+    "carbs": 222,
+    "proteins": 4,
+    "calories": 631,
+    "instructions": "Peanut butter and marshmallow creme. Pictured is a fluffernutter sandwich prior to being assembled."
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 321,
+    "elabTime": 34,
+    "carbs": 364,
+    "proteins": 13,
+    "calories": 323,
+    "instructions": "Leberkäse is a meatloaf-like dish which, despite the name, contains neither liver nor cheese. It is commonly served on a Kaiser roll with mustard."
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 458,
+    "elabTime": 60,
+    "carbs": 304,
+    "proteins": 14,
+    "calories": 699,
+    "instructions": "\"Pita gyro\" or \"psomaki gyro\", depending on the type of bread used, includes meat roasted on a vertical spit, with tomato, raw, often red onion and optional yogurt sauce, wrapped in pita or sandwich bread."
+  },
+  {
+    "name": "tortilla",
+    "gramsPerRecipe": 218,
+    "elabTime": 25,
+    "carbs": 172,
+    "proteins": 12,
+    "calories": 863,
+    "instructions": "Crusty bread rolls filled with fish (most commonly Bismarck or soused herring) and onions"
+  },
+  {
+    "name": "sourdough",
+    "gramsPerRecipe": 170,
+    "elabTime": 55,
+    "carbs": 186,
+    "proteins": 8,
+    "calories": 771,
+    "instructions": "Generic sandwich: This contains eggs, usually sliced hard boiled eggs or egg salad, but may be made with fried or (more rarely) scrambled egg, topped with the local roe spread, locally called kaviar.\nEgg salad sandwich: A chopped egg mixed with mayonaise.\nEggs Benedict is an open-faced sandwich consisting of an English muffin topped with meat, eggs, and hollandaise sauce."
+  },
+  {
+    "name": "crumpet",
+    "gramsPerRecipe": 521,
+    "elabTime": 55,
+    "carbs": 362,
+    "proteins": 3,
+    "calories": 273,
+    "instructions": "Round roll stuffed with sliced meat, sauce, and other ingredients, often made ahead and tightly wrapped to meld the filling with the bread."
+  },
+  {
+    "name": "cornbread",
+    "gramsPerRecipe": 294,
+    "elabTime": 62,
+    "carbs": 340,
+    "proteins": 13,
+    "calories": 776,
+    "instructions": "Peanut butter and marshmallow creme. Pictured is a fluffernutter sandwich prior to being assembled."
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 254,
+    "elabTime": 29,
+    "carbs": 229,
+    "proteins": 8,
+    "calories": 632,
+    "instructions": "In Italy, panino is the word for a sandwich made from bread other than sliced bread, in which case Italians call it a tramezzino. Examples of bread types used are ciabatta, rosetta and baguette. The bread is cut horizontally and filled with deli ingredients such as salami, ham, cheese, mortadella, or other food, and sometimes served warm after having been pressed by a warming grill. In the United States, United Kingdom and Canada, the term panini has been adopted to refer to a pressed and toasted sandwich; there is widespread availability and use of sandwich presses, often known as \"panini presses\" or \"toasted sandwich makers.\""
+  },
+  {
+    "name": "brioche",
+    "gramsPerRecipe": 496,
+    "elabTime": 63,
+    "carbs": 338,
+    "proteins": 9,
+    "calories": 505,
+    "instructions": "Made with single-, double- or triple-layered, buttered, thin white bread with crust removed, toasted or untoasted, contains thinly sliced meat and may include ham, eggs, cheese, tomatoes, green peppers, lettuce, olives, and sometimes other vegetables, even asparagus."
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 231,
+    "elabTime": 22,
+    "carbs": 390,
+    "proteins": 8,
+    "calories": 801,
+    "instructions": "A grilled, over-stuffed submarine roll, containing shaved steak, and topped with salami, melted provolone, sautéed onions, and bell peppers."
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 586,
+    "elabTime": 69,
+    "carbs": 316,
+    "proteins": 11,
+    "calories": 528,
+    "instructions": "A sizzling skewer of lamb, beef, pork or chicken roasted on a vertical grill, shaved off the spit, and marinade ranging from hot barbecue to sweet, all laid out on a rolled pita bread, sprinkled with your choice of lettuce, tomato, cheese, red onion, oregano and doused with tzatziki sauce."
+  },
+  {
+    "name": "casalinga",
+    "gramsPerRecipe": 141,
+    "elabTime": 18,
+    "carbs": 116,
+    "proteins": 5,
+    "calories": 794,
+    "instructions": "Half section of Italian or French bread with garlic butter, containing ham, provel or provolone cheese, topped with paprika, then toasted"
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 496,
+    "elabTime": 45,
+    "carbs": 235,
+    "proteins": 4,
+    "calories": 582,
+    "instructions": "Flat bread (often a tortilla) tightly wrapped around the sandwich filling with the ends tucked in to form a neat bundle, fillings can vary widely"
+  },
+  {
+    "name": "muffin",
+    "gramsPerRecipe": 361,
+    "elabTime": 37,
+    "carbs": 349,
+    "proteins": 6,
+    "calories": 259,
+    "instructions": "Ground meat, usually beef, cooked with seasoned tomato sauce and served on a round bun."
+  },
+  {
+    "name": "lavash",
+    "gramsPerRecipe": 553,
+    "elabTime": 20,
+    "carbs": 208,
+    "proteins": 13,
+    "calories": 908,
+    "instructions": "Thin slices of seasoned, juicy roast beef, often garnished with giardiniera or Italian sweet peppers, on a dense, long Italian-style roll"
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 152,
+    "elabTime": 32,
+    "carbs": 123,
+    "proteins": 5,
+    "calories": 631,
+    "instructions": "Coarsely shredded or sliced chicken, sandwiched between two pieces of sliced bread, and completely covered with gravy."
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 180,
+    "elabTime": 27,
+    "carbs": 398,
+    "proteins": 8,
+    "calories": 547,
+    "instructions": "Leberkäse is a meatloaf-like dish which, despite the name, contains neither liver nor cheese. It is commonly served on a Kaiser roll with mustard."
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 400,
+    "elabTime": 70,
+    "carbs": 286,
+    "proteins": 6,
+    "calories": 498,
+    "instructions": "Buttered bread, with jam (traditionally strawberry), normally eaten at lunchtime or as a quick snack, may also be eaten at breakfast or for high tea"
+  },
+  {
+    "name": "pain de mie",
+    "gramsPerRecipe": 311,
+    "elabTime": 25,
+    "carbs": 337,
+    "proteins": 6,
+    "calories": 694,
+    "instructions": "Essentially a miniature hamburger about three inches in diameter, but may contain other ingredients besides a hamburger patty"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 193,
+    "elabTime": 23,
+    "carbs": 167,
+    "proteins": 3,
+    "calories": 394,
+    "instructions": "Multiple layers containing a wide variety of meats and condiments, named for Dagwood Bumstead of the comic strip Blondie"
+  },
+  {
+    "name": "lavash",
+    "gramsPerRecipe": 126,
+    "elabTime": 17,
+    "carbs": 182,
+    "proteins": 3,
+    "calories": 954,
+    "instructions": "A French baguette with butter and ham. Also known as \"Parisien\", it is the most popular sandwich in France."
+  },
+  {
+    "name": "epi",
+    "gramsPerRecipe": 198,
+    "elabTime": 21,
+    "carbs": 304,
+    "proteins": 6,
+    "calories": 836,
+    "instructions": "A simple and common German sandwich prepared with thin slices of lunch meat or sausage. Sometimes butter is added to add flavor."
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 323,
+    "elabTime": 55,
+    "carbs": 319,
+    "proteins": 7,
+    "calories": 692,
+    "instructions": "Melted cheese, roast beef, tomato and pickled cucumber in a hollowed-out French roll"
+  },
+  {
+    "name": "ciabatta",
+    "gramsPerRecipe": 331,
+    "elabTime": 57,
+    "carbs": 211,
+    "proteins": 7,
+    "calories": 678,
+    "instructions": "Especially noted from Beigel Bake in Brick Lane, east London."
+  },
+  {
+    "name": "casalinga",
+    "gramsPerRecipe": 501,
+    "elabTime": 29,
+    "carbs": 290,
+    "proteins": 12,
+    "calories": 809,
+    "instructions": "Two flat fried bara (bread), containing curried chickpeas or garbanzo beans"
+  },
+  {
+    "name": "pane d'olive",
+    "gramsPerRecipe": 317,
+    "elabTime": 53,
+    "carbs": 381,
+    "proteins": 3,
+    "calories": 420,
+    "instructions": "Marmite spread thinly with butter or margarine onto toast or bread"
+  },
+  {
+    "name": "chapati",
+    "gramsPerRecipe": 205,
+    "elabTime": 55,
+    "carbs": 331,
+    "proteins": 9,
+    "calories": 220,
+    "instructions": "Originated in New Orleans' Italian-American community, meats, cheeses, and olive salad on a round bun"
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 140,
+    "elabTime": 34,
+    "carbs": 225,
+    "proteins": 10,
+    "calories": 203,
+    "instructions": "Single, open-faced, containing butter as the common ingredient, with sweet or savory toppings depending on the meal"
+  },
+  {
+    "name": "crumpet",
+    "gramsPerRecipe": 361,
+    "elabTime": 55,
+    "carbs": 341,
+    "proteins": 3,
+    "calories": 256,
+    "instructions": "Deep-fried balls of ground, seasoned chickpeas topped with salad vegetables, hot sauce, tahini-based sauces, and pickled vegetables, wrapped in or added to the pocket of a split-open pita bread."
+  },
+  {
+    "name": "rugbrød",
+    "gramsPerRecipe": 595,
+    "elabTime": 54,
+    "carbs": 392,
+    "proteins": 4,
+    "calories": 585,
+    "instructions": "Marmite spread thinly with butter or margarine onto toast or bread"
+  },
+  {
+    "name": "potato bread",
+    "gramsPerRecipe": 526,
+    "elabTime": 51,
+    "carbs": 285,
+    "proteins": 8,
+    "calories": 996,
+    "instructions": "A grilled, over-stuffed submarine roll, containing shaved steak, and topped with salami, melted provolone, sautéed onions, and bell peppers."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 202,
+    "elabTime": 63,
+    "carbs": 349,
+    "proteins": 7,
+    "calories": 233,
+    "instructions": "A grilled, over-stuffed submarine roll, containing shaved steak, and topped with salami, melted provolone, sautéed onions, and bell peppers."
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 503,
+    "elabTime": 54,
+    "carbs": 131,
+    "proteins": 8,
+    "calories": 773,
+    "instructions": "A patty dish popular in the Balkan region of Southeastern Europe, a sandwich utilizes the Pljeskavica patty and bread."
+  },
+  {
+    "name": "rugbrød",
+    "gramsPerRecipe": 341,
+    "elabTime": 51,
+    "carbs": 334,
+    "proteins": 7,
+    "calories": 290,
+    "instructions": "A triple-decker sandwich made with sliced turkey or chicken, bacon, tomato and lettuce, usually contains mayonnaise"
+  },
+  {
+    "name": "matzoh",
+    "gramsPerRecipe": 392,
+    "elabTime": 64,
+    "carbs": 108,
+    "proteins": 14,
+    "calories": 242,
+    "instructions": "Two thin slices of crustless, lightly buttered white bread, containing paper-thin slices of peeled cucumber"
+  },
+  {
+    "name": "roti",
+    "gramsPerRecipe": 241,
+    "elabTime": 62,
+    "carbs": 372,
+    "proteins": 3,
+    "calories": 476,
+    "instructions": "Thinly cut steak, grilled and served on a toasted bun, usually with tomato, avocado and mayonnaise"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 444,
+    "elabTime": 56,
+    "carbs": 373,
+    "proteins": 7,
+    "calories": 773,
+    "instructions": "Form of barbecue in which pork is cooked using a slow cook method until the meat becomes tender enough that it can be \"pulled\", or easily broken into individual pieces"
+  },
+  {
+    "name": "pumpernickel",
+    "gramsPerRecipe": 349,
+    "elabTime": 21,
+    "carbs": 250,
+    "proteins": 8,
+    "calories": 534,
+    "instructions": "Tofu with veggies. Typically broiled or baked tofu."
+  },
+  {
+    "name": "ficelle",
+    "gramsPerRecipe": 487,
+    "elabTime": 66,
+    "carbs": 161,
+    "proteins": 11,
+    "calories": 385,
+    "instructions": "Flat bread with fillings of beef, spinach, tomatoes, cucumber, tahini sauce wrapped and grilled. Other toppings to can be added."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 550,
+    "elabTime": 57,
+    "carbs": 175,
+    "proteins": 8,
+    "calories": 936,
+    "instructions": "A hot melted cheese sauce, poured over slices (or other pieces) of toasted bread. Or the hot cheese sauce may be served in a bowl accompanied by the toast."
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 588,
+    "elabTime": 44,
+    "carbs": 117,
+    "proteins": 9,
+    "calories": 632,
+    "instructions": "Thinly sliced churrasco-style steak, or lomito-style pork, with tomatoes, green beans and green chiles, served on a round roll"
+  },
+  {
+    "name": "rye",
+    "gramsPerRecipe": 486,
+    "elabTime": 49,
+    "carbs": 152,
+    "proteins": 13,
+    "calories": 627,
+    "instructions": "Roast pork, ham, mustard, Swiss cheese, and dill pickles served on sweet bread."
+  },
+  {
+    "name": "casalinga",
+    "gramsPerRecipe": 525,
+    "elabTime": 21,
+    "carbs": 290,
+    "proteins": 10,
+    "calories": 833,
+    "instructions": "Buttered brown bread with smoked pork sausage (Kottenwurst), fresh onion rings and spicy mustard"
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 444,
+    "elabTime": 31,
+    "carbs": 338,
+    "proteins": 10,
+    "calories": 987,
+    "instructions": "Any sandwich containing mortadella, a large Italian sausage"
+  },
+  {
+    "name": "boule",
+    "gramsPerRecipe": 592,
+    "elabTime": 51,
+    "carbs": 285,
+    "proteins": 9,
+    "calories": 657,
+    "instructions": "Consists of a hamburger patty, pieces of sautéed or grilled onion and Cheddar or Swiss cheese between two slices of bread"
+  },
+  {
+    "name": "pita",
+    "gramsPerRecipe": 381,
+    "elabTime": 34,
+    "carbs": 267,
+    "proteins": 7,
+    "calories": 895,
+    "instructions": "A typical food of Mexico and a kind of bread in Spain. In Mexico, Molletes are prepared with melted cheese and beans with other ingredients, such as salsa, ham or bacon."
+  },
+  {
+    "name": "hardtack",
+    "gramsPerRecipe": 206,
+    "elabTime": 46,
+    "carbs": 310,
+    "proteins": 11,
+    "calories": 560,
+    "instructions": "A soft bread roll containing a ragout-based croquette. It is often eaten with mustard."
+  },
+  {
+    "name": "hamburger bun",
+    "gramsPerRecipe": 327,
+    "elabTime": 70,
+    "carbs": 130,
+    "proteins": 3,
+    "calories": 310,
+    "instructions": "Selection of grilled meats topped with french fries, coleslaw, and tomato on Italian bread"
+  },
+  {
+    "name": "bagel",
+    "gramsPerRecipe": 422,
+    "elabTime": 28,
+    "carbs": 222,
+    "proteins": 5,
+    "calories": 331,
+    "instructions": "Lobster meat tossed with either mayonnaise (\"cold\") or drawn butter (\"hot\") stuffed into a slit opening at the top of a grilled bread roll or hot dog bun."
+  },
+  {
+    "name": "focaccia",
+    "gramsPerRecipe": 394,
+    "elabTime": 31,
+    "carbs": 348,
+    "proteins": 10,
+    "calories": 589,
+    "instructions": "A potato fritter coated in chickpea flour (batata vada) in a bun"
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 544,
+    "elabTime": 38,
+    "carbs": 288,
+    "proteins": 11,
+    "calories": 737,
+    "instructions": "Roast pork, ham, mustard, Swiss cheese, and dill pickles served on sweet bread."
+  },
+  {
+    "name": "scone",
+    "gramsPerRecipe": 420,
+    "elabTime": 54,
+    "carbs": 181,
+    "proteins": 8,
+    "calories": 951,
+    "instructions": "Basic ingredients are eggs, chopped onions, sambal paste, salt and pepper cooked as an omelette with the bread added on top before it's fully cooked. Many variation includes canned sardines, chicken, beef, mutton. Garnished with mayo, chili sauce and cheese slice."
+  },
+  {
+    "name": "pretzel",
+    "gramsPerRecipe": 235,
+    "elabTime": 25,
+    "carbs": 102,
+    "proteins": 9,
+    "calories": 266,
+    "instructions": "A halved baguette or other bread usually topped with mushrooms and cheese, ham or other meats, and vegetables"
+  },
+  {
+    "name": "matzoh",
+    "gramsPerRecipe": 143,
+    "elabTime": 44,
+    "carbs": 191,
+    "proteins": 10,
+    "calories": 793,
+    "instructions": "A typical food of Mexico and a kind of bread in Spain. In Mexico, Molletes are prepared with melted cheese and beans with other ingredients, such as salsa, ham or bacon."
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 155,
+    "elabTime": 58,
+    "carbs": 219,
+    "proteins": 9,
+    "calories": 509,
+    "instructions": "This sandwich can be made in a pan. Margarine on the outside, pizza sauce and fillings on the inside. The term \"pudgy pie\" is sometimes used to refer to pie irons, a gadget used for campfire cooking."
+  },
+  {
+    "name": "flatbread",
+    "gramsPerRecipe": 384,
+    "elabTime": 45,
+    "carbs": 382,
+    "proteins": 9,
+    "calories": 477,
+    "instructions": "Filet américain (steak tartare) with Worcestershire sauce, pickles, onions, peppers and martino sauce"
+  },
+  {
+    "name": "pain au levain",
+    "gramsPerRecipe": 465,
+    "elabTime": 19,
+    "carbs": 223,
+    "proteins": 9,
+    "calories": 681,
+    "instructions": "Coarsely shredded or sliced chicken, sandwiched between two pieces of sliced bread, and completely covered with gravy."
+  },
+  {
+    "name": "baguette",
+    "gramsPerRecipe": 592,
+    "elabTime": 39,
+    "carbs": 384,
+    "proteins": 13,
+    "calories": 310,
+    "instructions": "Vegan version of the BLT: Smoky baked tempeh, lettuce, tomato and avocado served sourdough toasted bread"
   }
 ]
