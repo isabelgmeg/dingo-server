@@ -2,6 +2,7 @@ const router = require('express').Router();
 
 const RecipesModel = require('../models/Recipes');
 const BiometricsModel = require('../models/Biometrics');
+const IngredientsModel = require('../models/Ingredients')
 
 const { isAuthenticated } = require('../middlewares/authentication');
 const { checkRecipeQuantityLimits } = require('../utils/utils');
@@ -34,7 +35,10 @@ router.get('/getMealPlan', [isAuthenticated], async (req, res, next) => {
             $lte: Number(maxElabTime)
           },
         },
-      ).skip(rnd).limit(userMealsPerDay);
+      ).skip(rnd).limit(userMealsPerDay).populate({
+        path: 'ingredientsInfo.ingredientId',
+        model: 'Ingredients'
+      });
 
     res.status(200).json({ success: true, data: recipeParams, count: recipeParams.length });
   } catch (error) {

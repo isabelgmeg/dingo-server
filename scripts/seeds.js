@@ -12,9 +12,9 @@ const ingredientsDummy = require('./seeds/ingredientsDummy.json');
 
 (async () => {
   try {
+    await createIngredients(ingredientsDummy)
     await createRecipes()
     await createUsers(usersDummy);
-    await createIngredients(ingredientsDummy)
     await createBiometrics()
   } catch (error) {
     console.error(error);
