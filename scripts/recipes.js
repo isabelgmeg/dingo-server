@@ -27,8 +27,6 @@ const createRecipes = async () => {
     ingredientsArray.push(ingredient._id);
   }
 
-  console.log(ingredientsArray)
-
   const newRecipes = dummyRecipes.map((recipe) => ({
     ...recipe,
     ingredientsInfo: [],
