@@ -23,9 +23,8 @@ const createRecipes = async () => {
   ingredientsArray = [];
 
   for (ingredient of ingredients) {
-    const id = ingredient.get('_id');
 
-    ingredientsArray.push(id);
+    ingredientsArray.push(ingredient._id);
   }
 
   const newRecipes = dummyRecipes.map((recipe) => ({

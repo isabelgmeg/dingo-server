@@ -8,10 +8,10 @@ const dropIngredients = async () => {
   console.info('> ingredients collection deleted👮🏻‍♂🥖🍞!');
 };
 
-const createIngredients = async (ingredientsDummy) => {
+const createIngredients = async (data) => {
 
-  const ingredientsMapped = ingredientsDummy.map((singleIngredient) => {
-    const intolerances = ['lactose-intolerant','gluten-intolerant','nut-alergy','fructose','none', 'none','none','none','none','none']
+  const ingredientsMapped = data.map((singleIngredient) => {
+    const intolerances = ['lactose-intolerant','gluten-intolerant','nut-alergy','fructose','none', 'none','none','none','none']
     const randomIntolerance = intolerances[Math.floor(Math.random() * intolerances.length)]
     const randomPic = dummyImages[Math.floor(Math.random() * dummyImages.length)]
 

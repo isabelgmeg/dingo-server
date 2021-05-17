@@ -43,7 +43,7 @@ const createBiometrics = async () => {
       intolerances: selectRandomElement(intolerancesType),
       objectiveTypes: selectRandomElement(objectiveTypes),
       elabTimePerDay: Math.floor(Math.random() * (240 - 10)) + 10,
-      mealsPerDay: Math.floor(Math.random() * (4-1)) + 1,
+      mealsPerDay: Math.floor(Math.random() * (4-2)) + 2,
     };
 
     usersData.push(userBiometricData);
