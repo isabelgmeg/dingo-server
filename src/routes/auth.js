@@ -12,7 +12,8 @@ router.get('/short-profile', [isAuthenticated], (req, res) => {
 const getUserResponseData = (user) => ({
   name: user.name,
   surname: user.surname,
-  email: user.email
+  email: user.email,
+  id: user._id,
 });
 
 router.post('/register', (req, res, next) => {

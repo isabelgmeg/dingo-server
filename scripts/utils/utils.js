@@ -3,7 +3,7 @@ const dummyImages = require('../seeds/imagesDummy.json');
 const selectRandomElement = (array) =>
   array[Math.floor(Math.random() * array.length)];
 
-const randomPic = dummyImages[Math.floor(Math.random() * dummyImages.length)];
+const randomPic = selectRandomElement(dummyImages);
 
 let mealTypes = ['breakfast-snack', 'main', 'main', 'main', 'main', 'main'];
 
