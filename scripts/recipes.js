@@ -2,6 +2,7 @@ const RecipesModel = require('../src/models/Recipes');
 const IngredientsModel = require('../src/models/Ingredients');
 
 const dummyRecipes = require('./seeds/recipesDummy.json');
+const dummyImages = require('./seeds/imagesDummy')
 
 const {
   mealTypes,
@@ -32,7 +33,7 @@ const createRecipes = async () => {
     ingredientsInfo: [],
     mealType: selectRandomElement(mealTypes),
     intolerances: [selectRandomElement(intolerancesType)],
-    picture: randomPic,
+    picture: selectRandomElement(dummyImages) ,
     createdBy: '_' + Math.random().toString(36).substr(2, 9),
   }));
 
