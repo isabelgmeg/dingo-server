@@ -79,5 +79,20 @@ router.get('/get/:recipeName', [isAuthenticated], async (req, res, next) => {
   }
 });
 
-module.exports = router;
+router.get('/getRecipeById/:recipeId', [isAuthenticated], async (req, res, next) => {
+  try {
+    const { recipeId } = req.params.recipeId
 
+    const recipe = await RecipesModel.findById({ _id: req.params.recipeId }).populate({
+      path: 'ingredientsInfo.ingredientId',
+      model: 'Ingredients'
+    });
+
+    console.log(recipeId)
+    res.status(200).json({ success: true, data: recipe });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
+module.exports = router;
