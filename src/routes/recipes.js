@@ -1,5 +1,7 @@
 const router = require('express').Router();
 
+const mongoose = require('mongoose');
+
 const RecipesModel = require('../models/Recipes');
 const BiometricsModel = require('../models/Biometrics');
 const IngredientsModel = require('../models/Ingredients')
@@ -46,4 +48,36 @@ router.get('/getMealPlan', [isAuthenticated], async (req, res, next) => {
   }
 });
 
+router.get('/getRecipeByIngredients/:ingredientId', [isAuthenticated], async (req, res, next) => {
+  try {
+    const ingredientId = req.params.ingredientId
+
+    console.log(ingredientId)
+
+    const ingredientData = await RecipesModel.find({
+      "ingredientsInfo.ingredientId": mongoose.Types.ObjectId(ingredientId) 
+    });
+
+    res.status(200).json({ success: true, data: ingredientData });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
+router.get('/get/:recipeName', [isAuthenticated], async (req, res, next) => {
+  try {
+    const { recipeName } = req.params.recipeName
+
+    const recipe = await RecipesModel.find({
+      recipeName: recipeName
+    });
+
+
+    res.status(200).json({ success: true, data: recipe });
+  } catch (error) {
+    res.status(401).json({ success: false, data: error.message });
+  }
+});
+
 module.exports = router;
+

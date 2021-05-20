@@ -13,7 +13,6 @@ const getUserResponseData = (user) => ({
   name: user.name,
   surname: user.surname,
   email: user.email,
-  id: user._id,
 });
 
 router.post('/register', (req, res, next) => {
