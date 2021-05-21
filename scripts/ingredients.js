@@ -1,6 +1,7 @@
 
 const IngredientsModel = require('../src/models/Ingredients');
 const dummyImages = require('./seeds/imagesDummy')
+const dummyIngredientImages = require('./seeds/ingredientsImagesDummy.json')
 
 const dropIngredients = async () => {
   await IngredientsModel.deleteMany({});
@@ -13,7 +14,7 @@ const createIngredients = async (data) => {
   const ingredientsMapped = data.map((singleIngredient) => {
     const intolerances = ['lactose-intolerant','gluten-intolerant','nut-alergy','fructose','none', 'none','none','none','none']
     const randomIntolerance = intolerances[Math.floor(Math.random() * intolerances.length)]
-    const randomPic = dummyImages[Math.floor(Math.random() * dummyImages.length)]
+    const randomPic = dummyIngredientImages[Math.floor(Math.random() * dummyIngredientImages.length)]
 
     
     const ingredient = {
