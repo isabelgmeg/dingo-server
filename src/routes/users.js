@@ -57,13 +57,17 @@ router.get('/savedRecipes', [isAuthenticated], async (req, res, next) => {
     const userRecipes = await UserModel.findById(userId, {
       recipesSaved: 1,
       _id: 0,
+    }).populate({
+      path: 'recipesSaved',
+      model: 'Recipes'
     });
 
-    const recipesSaved = userRecipes.get('recipesSaved');
+    const recipesSaved = userRecipes.get('recipesSaved')
 
     res.status(200).json({
       success: true,
       data: recipesSaved,
+      count: recipesSaved.length
     });
   } catch (error) {
     res.status(401).json({ success: false, data: error.message });
