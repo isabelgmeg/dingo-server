@@ -68,6 +68,6 @@ const createBiometrics = async () => {
 };
 
 module.exports = {
-  createBiometrics,
-  dropBiometrics
+  dropBiometrics,
+  createBiometrics
 };

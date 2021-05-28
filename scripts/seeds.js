@@ -1,5 +1,5 @@
-require('../src/configs/db');
 require('dotenv').config();
+require('../src/configs/db');
 
 const { createUsers } = require('./users');
 const { createIngredients } = require('./ingredients')
