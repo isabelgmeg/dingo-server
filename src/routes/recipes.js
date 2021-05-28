@@ -68,10 +68,11 @@ router.get('/get/:recipeName', [isAuthenticated], async (req, res, next) => {
   try {
     const { recipeName } = req.params.recipeName
 
-    const recipe = await RecipesModel.find({
-      recipeName: recipeName
+    const recipe = await RecipesModel.findOne({
+      name: req.params.recipeName
     });
 
+    console.log(recipeName)
 
     res.status(200).json({ success: true, data: recipe });
   } catch (error) {
